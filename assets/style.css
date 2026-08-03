@@ -1,0 +1,499 @@
+/* ============================================================
+   The Journey Home — Nârayaña Anugraha Patram
+   Shared stylesheet. Palette and type echo the printed cards:
+   deep indigo, antique gold, parchment cream, temple maroon.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Work+Sans:wght@400;500;600;700&family=Catamaran:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@500;600;700&display=swap');
+
+:root {
+  --indigo-deep: #171a35;
+  --indigo-mid: #2a2e5c;
+  --gold: #c9a227;
+  --gold-light: #e6c765;
+  --parchment: #f8f0da;
+  --parchment-dim: #efe4c4;
+  --ink: #241d10;
+  --ink-soft: #4a3f26;
+  --maroon: #7c2f2f;
+  --radius: 14px;
+  --max-w: 700px;
+  --shadow: 0 12px 34px rgba(23, 26, 53, 0.18);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--indigo-deep);
+  background-image:
+    radial-gradient(circle at 15% 8%, rgba(201,162,39,0.10), transparent 40%),
+    radial-gradient(circle at 85% 92%, rgba(201,162,39,0.08), transparent 45%);
+  color: var(--parchment);
+  font-family: 'Work Sans', system-ui, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--gold-light); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--gold-light); outline-offset: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+/* ---------- Layout shell ---------- */
+
+.wrap {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 20px 64px;
+}
+
+/* ---------- Gopuram arch header (signature element) ---------- */
+
+.gopuram {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.masthead {
+  text-align: center;
+  padding: 36px 20px 18px;
+}
+
+.masthead .eyebrow {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: var(--gold-light);
+  margin: 0 0 6px;
+}
+
+.masthead h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 7vw, 2.8rem);
+  margin: 0 0 4px;
+  color: var(--parchment);
+}
+
+.masthead .tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--gold-light);
+  margin: 0;
+}
+
+nav.primary {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  padding: 14px 20px 6px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+nav.primary a {
+  color: var(--parchment);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+
+nav.primary a:hover, nav.primary a[aria-current="page"] {
+  border-bottom-color: var(--gold);
+  color: var(--gold-light);
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  margin: 28px auto;
+  max-width: 220px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+/* ---------- Cards / content panels ---------- */
+
+.panel {
+  background: var(--parchment);
+  color: var(--ink);
+  border-radius: var(--radius);
+  border: 1px solid rgba(201,162,39,0.5);
+  box-shadow: var(--shadow);
+  padding: 28px 26px;
+  margin: 20px 0;
+}
+
+.panel + .panel { margin-top: 22px; }
+
+.eyebrow-gold {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: var(--maroon);
+  margin: 0 0 6px;
+}
+
+/* ---------- Divine Name detail page ---------- */
+
+.name-header { text-align: center; padding: 8px 0 4px; }
+
+.script-stack { margin: 6px 0 14px; }
+
+.script-devanagari {
+  font-family: 'Noto Serif Devanagari', serif;
+  font-size: clamp(2.1rem, 9vw, 2.9rem);
+  font-weight: 600;
+  color: var(--gold-light);
+  display: block;
+  line-height: 1.25;
+}
+
+.script-tamil {
+  font-family: 'Catamaran', sans-serif;
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
+  font-weight: 600;
+  color: var(--parchment);
+  display: block;
+  margin-top: 2px;
+}
+
+.script-iast {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--gold-light);
+  display: block;
+  margin-top: 2px;
+}
+
+.meaning-line {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem;
+  color: var(--parchment);
+  max-width: 520px;
+  margin: 14px auto 0;
+  line-height: 1.5;
+}
+
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: var(--maroon);
+  margin: 0 0 10px;
+}
+
+.story-panel p { margin: 0 0 14px; }
+.story-panel p:last-child { margin-bottom: 0; }
+
+.mantra-panel {
+  text-align: center;
+  background: linear-gradient(180deg, var(--indigo-mid), var(--indigo-deep));
+  color: var(--gold-light);
+  border: 1px solid var(--gold);
+}
+
+.mantra-panel .section-title { color: var(--gold-light); }
+
+.mantra-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--parchment);
+  margin: 6px 0 2px;
+}
+
+.practice-panel { border-color: var(--maroon); }
+
+.source-note {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  border-top: 1px dashed rgba(124,47,47,0.35);
+  margin-top: 18px;
+  padding-top: 12px;
+}
+
+.nav-between {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 30px;
+}
+
+.nav-between a {
+  text-decoration: none;
+  padding: 10px 14px;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  color: var(--parchment);
+}
+.nav-between a:hover { background: rgba(201,162,39,0.14); }
+
+/* ---------- Names index / grid ---------- */
+
+.collection-block { margin: 30px 0 8px; }
+
+.collection-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--gold-light);
+  margin: 0 0 4px;
+  text-align: center;
+}
+.collection-sub {
+  text-align: center;
+  font-size: 0.85rem;
+  color: rgba(248,240,218,0.65);
+  margin: 0 0 14px;
+}
+
+.name-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+@media (max-width: 480px) {
+  .name-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.name-tile {
+  background: var(--parchment);
+  color: var(--ink);
+  border-radius: 10px;
+  text-align: center;
+  padding: 14px 6px;
+  text-decoration: none;
+  border: 1px solid rgba(201,162,39,0.5);
+  transition: transform 0.15s ease;
+}
+.name-tile:hover { transform: translateY(-2px); }
+.name-tile .tile-num {
+  display: block;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 0.68rem;
+  color: var(--maroon);
+  font-weight: 700;
+}
+.name-tile .tile-name {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 2px;
+}
+
+.name-tile.pending {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+/* ---------- Home page blocks ---------- */
+
+.intro-panel p { margin: 0 0 14px; }
+.intro-panel p:last-child { margin-bottom: 0; }
+
+.cta-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 26px 0 6px;
+}
+.cta-button {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 1px solid var(--gold);
+}
+.cta-button.primary { background: var(--gold); color: var(--indigo-deep); }
+.cta-button.secondary { color: var(--parchment); }
+.cta-button.primary:hover { background: var(--gold-light); }
+.cta-button.secondary:hover { background: rgba(201,162,39,0.14); }
+
+footer.site {
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(248,240,218,0.55);
+  padding: 30px 20px 10px;
+}
+footer.site a { color: rgba(230,199,101,0.85); }
+
+/* ---------- Pathram code badge ---------- */
+
+.pathram-code {
+  display: inline-block;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--indigo-deep);
+  background: var(--gold-light);
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+/* ---------- Discourse link panel ---------- */
+
+.discourse-panel a.discourse-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.discourse-panel .disclaimer {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  margin-top: 10px;
+}
+
+/* ---------- Related names ---------- */
+
+.related-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8px;
+}
+.related-row a {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--parchment-dim);
+  border: 1px solid rgba(124,47,47,0.3);
+  border-radius: 999px;
+  padding: 6px 14px;
+}
+.related-row a:hover { background: var(--gold-light); }
+
+/* ---------- Chapter intro blocks (Divine Name Collection page) ---------- */
+
+.chapter-desc {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: rgba(248,240,218,0.8);
+  max-width: 480px;
+  margin: -4px auto 12px;
+}
+
+/* ---------- Golu Story two-column-ish sections ---------- */
+
+.story-section-label {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: var(--gold-light);
+  text-align: center;
+  margin: 0 0 4px;
+}
+.story-section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--parchment);
+  text-align: center;
+  margin: 0 0 14px;
+}
+.story-list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.story-list li { margin-bottom: 6px; }
+
+.connecting-statement {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--gold-light);
+  max-width: 520px;
+  margin: 24px auto 0;
+}
+
+/* ---------- Audio guide choice cards ---------- */
+
+.audio-choice-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 560px) {
+  .audio-choice-row { grid-template-columns: 1fr; }
+}
+.audio-choice h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+  color: var(--maroon);
+}
+.audio-choice ul { margin: 8px 0 0; padding-left: 1.1em; }
+.audio-badge {
+  display: inline-block;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: #fff;
+  background: var(--maroon);
+  border-radius: 999px;
+  padding: 2px 10px;
+  margin-bottom: 8px;
+}
+
+/* ---------- Journey Home stage grid ---------- */
+
+.stage-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.stage-tile {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--parchment);
+  color: var(--ink);
+  border-radius: 10px;
+  border: 1px solid rgba(201,162,39,0.5);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.stage-tile .stage-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--maroon);
+  min-width: 28px;
+}
+.stage-tile .stage-name {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 600;
+}
+.stage-tile:hover { background: var(--gold-light); }
