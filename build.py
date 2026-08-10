@@ -41,6 +41,7 @@ GOPURAM_SVG = """
 NAV_ITEMS = [
     ("home", "Home", "/index.html"),
     ("golu-story", "The Golu Story", "/golu-story.html"),
+    ("tour", "Virtual Tour", "/virtual-tour.html"),
     ("journey", "Journey Home", "/journey-home/index.html"),
     ("names", "Divine Name Collection", "/divine-names/index.html"),
     ("audio", "Audio Guides", "/audio-guides.html"),
@@ -680,7 +681,10 @@ golu_story_body = """
 destination and the Lord's loving reception of the soul.</p>
 
 <div class="cta-row">
-  <a class="cta-button primary" href="journey-home/index.html">Follow the Journey Home &rarr;</a>
+  <a class="cta-button primary" href="virtual-tour.html">Take the Virtual Tour &rarr;</a>
+</div>
+<div class="cta-row">
+  <a class="cta-button secondary" href="journey-home/index.html">Follow the Journey Home &rarr;</a>
 </div>
 """
 golu_story_html = page("The Golu Story \u2014 The Journey Home", "golu-story", golu_story_body, depth=0)
@@ -787,6 +791,77 @@ audio_body = """
 audio_html = page("Audio Guides \u2014 The Journey Home", "audio", audio_body, depth=0)
 with open(os.path.join(ROOT, "audio-guides.html"), "w", encoding="utf-8") as f:
     f.write(audio_html)
+
+# ------------------------------------------------------------------
+# Virtual Tour (A-Frame 360 walkaround, VR-headset capable)
+# ------------------------------------------------------------------
+
+TOUR_ROOMS = [
+    dict(id="dining-room", label="Dining Room", sublabel="Grace and Surrender",
+         img="assets/panoramas/dining-room.jpg"),
+    dict(id="pooja-room", label="Pooja Room", sublabel="The Journey of the J\u012bv\u0101tma",
+         img="assets/panoramas/pooja-room.jpg"),
+]
+
+tour_body = f"""
+<div class="panel">
+  <p class="section-title" style="text-align:center;">Step Inside the Golu</p>
+  <p style="text-align:center;">A 360&deg; virtual walkaround of the exhibition &mdash; drag to look
+  around on desktop, or tilt your phone to look around like you're standing in the room. If you have
+  a Google Cardboard or VR headset, tap the goggles icon in the bottom-right of the scene for full VR
+  mode.</p>
+</div>
+
+<div class="tour-room-switch" id="room-switch">
+  {"".join(f'<button class="tour-room-btn{" active" if i==0 else ""}" data-room="{r["id"]}">{r["label"]}</button>' for i, r in enumerate(TOUR_ROOMS))}
+</div>
+
+<div class="tour-wrap">
+  <div class="tour-scene-frame">
+    <a-scene embedded vr-mode-ui="enabled: true" style="width:100%;height:100%;" loading-screen="dotsColor: gold; backgroundColor: #171a35">
+      {"".join(f'<a-assets><img id="{r["id"]}-img" src="{r["img"]}" crossorigin="anonymous"></a-assets>' for r in TOUR_ROOMS[:1])}
+      {"".join(f'<img id="{r["id"]}-img" style="display:none" src="{r["img"]}">' for r in TOUR_ROOMS[1:])}
+      <a-sky id="tour-sky" src="#{TOUR_ROOMS[0]['id']}-img" rotation="0 -90 0"></a-sky>
+      <a-camera look-controls="reverseMouseDrag: false" wasd-controls-enabled="false"></a-camera>
+    </a-scene>
+  </div>
+  <p class="tour-instructions">{TOUR_ROOMS[0]['label']} &mdash; {TOUR_ROOMS[0]['sublabel']}</p>
+</div>
+
+<p class="tour-vr-note">This is a placeholder 360&deg; scene. Once real photos of the finished Golu are
+taken (using a phone's Panorama/Photo Sphere mode, or the free Google Street View app), they'll drop
+in here without changing anything else on this page.</p>
+
+<div class="cta-row">
+  <a class="cta-button secondary" href="golu-story.html">&larr; Back to the Golu Story</a>
+</div>
+
+<script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+<script>
+(function() {{
+  var rooms = {{
+    {", ".join(f'"{r["id"]}": {{label: "{r["label"]}", sublabel: "{r["sublabel"]}"}}' for r in TOUR_ROOMS)}
+  }};
+  var buttons = document.querySelectorAll('.tour-room-btn');
+  var sky = document.getElementById('tour-sky');
+  var instructions = document.querySelector('.tour-instructions');
+  buttons.forEach(function(btn) {{
+    btn.addEventListener('click', function() {{
+      var roomId = btn.getAttribute('data-room');
+      buttons.forEach(function(b) {{ b.classList.remove('active'); }});
+      btn.classList.add('active');
+      sky.setAttribute('src', '#' + roomId + '-img');
+      var r = rooms[roomId];
+      instructions.textContent = r.label + ' \u2014 ' + r.sublabel;
+    }});
+  }});
+}})();
+</script>
+"""
+tour_html = page("Virtual Tour \u2014 The Journey Home", "tour", tour_body, depth=0,
+                  description="Step inside the Navaratri Golu 2026 exhibition with a 360-degree virtual walkaround.")
+with open(os.path.join(ROOT, "virtual-tour.html"), "w", encoding="utf-8") as f:
+    f.write(tour_html)
 
 # ------------------------------------------------------------------
 # About & Acknowledgements
