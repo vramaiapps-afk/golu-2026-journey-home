@@ -497,3 +497,57 @@ footer.site a { color: rgba(230,199,101,0.85); }
   font-weight: 600;
 }
 .stage-tile:hover { background: var(--gold-light); }
+
+/* ---------- Virtual Tour ---------- */
+
+.tour-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.tour-scene-frame {
+  width: 100%;
+  height: 62vh;
+  min-height: 340px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(201,162,39,0.5);
+  box-shadow: var(--shadow);
+  background: var(--indigo-mid);
+  position: relative;
+}
+.tour-instructions {
+  text-align: center;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 0.85rem;
+  color: rgba(248,240,218,0.75);
+  margin: 10px auto 6px;
+  max-width: 480px;
+}
+.tour-room-switch {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 16px 0 4px;
+  flex-wrap: wrap;
+}
+.tour-room-btn {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--parchment);
+  cursor: pointer;
+}
+.tour-room-btn.active { background: var(--gold); color: var(--indigo-deep); }
+.tour-room-btn:hover:not(.active) { background: rgba(201,162,39,0.14); }
+.tour-vr-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(248,240,218,0.6);
+  margin-top: 10px;
+}

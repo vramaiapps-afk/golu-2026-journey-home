@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virtual Tour — The Journey Home</title>
+<meta name="description" content="Step inside the Navaratri Golu 2026 exhibition with a 360-degree virtual walkaround.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  
+<svg class="gopuram" viewBox="0 0 700 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Temple gopuram silhouette">
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6c765"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#goldGrad)" opacity="0.9">
+    <rect x="0" y="118" width="700" height="2"/>
+    <polygon points="350,10 300,60 400,60"/>
+    <rect x="320" y="55" width="60" height="14"/>
+    <polygon points="350,26 330,52 370,52"/>
+    <rect x="230" y="70" width="40" height="48"/>
+    <polygon points="250,50 232,72 268,72"/>
+    <rect x="430" y="70" width="40" height="48"/>
+    <polygon points="450,50 432,72 468,72"/>
+    <rect x="120" y="86" width="30" height="32"/>
+    <polygon points="135,70 122,88 148,88"/>
+    <rect x="550" y="86" width="30" height="32"/>
+    <polygon points="565,70 552,88 578,88"/>
+    <circle cx="350" cy="20" r="4"/>
+  </g>
+</svg>
+
+  <p class="eyebrow">Navaratri Golu 2026 &middot; Journey Home</p>
+  <h1>The Journey Home</h1>
+  <p class="tagline">The soul&rsquo;s journey to the lotus feet of Sriman Narayana</p>
+</header>
+<nav class="primary">
+  <a href="index.html">Home</a>
+  <a href="golu-story.html" aria-current="page">The Golu Story</a>
+  <a href="journey-home/index.html">Journey Home</a>
+  <a href="divine-names/index.html">Divine Name Collection</a>
+  <a href="audio-guides.html">Audio Guides</a>
+  <a href="about.html">About & Acknowledgements</a>
+</nav>
+<hr class="divider"/>
+
+
+<div class="panel">
+  <p class="section-title" style="text-align:center;">Step Inside the Golu</p>
+  <p style="text-align:center;">A 360&deg; virtual walkaround of the exhibition &mdash; drag to look
+  around on desktop, or tilt your phone to look around like you're standing in the room. If you have
+  a Google Cardboard or VR headset, tap the goggles icon in the bottom-right of the scene for full VR
+  mode.</p>
+</div>
+
+<div class="tour-room-switch" id="room-switch">
+  <button class="tour-room-btn active" data-room="dining-room">Dining Room</button><button class="tour-room-btn" data-room="pooja-room">Pooja Room</button>
+</div>
+
+<div class="tour-wrap">
+  <div class="tour-scene-frame">
+    <a-scene embedded vr-mode-ui="enabled: true" style="width:100%;height:100%;" loading-screen="dotsColor: gold; backgroundColor: #171a35">
+      <a-assets><img id="dining-room-img" src="assets/panoramas/dining-room.jpg" crossorigin="anonymous"></a-assets>
+      <img id="pooja-room-img" style="display:none" src="assets/panoramas/pooja-room.jpg">
+      <a-sky id="tour-sky" src="#dining-room-img" rotation="0 -90 0"></a-sky>
+      <a-camera look-controls="reverseMouseDrag: false" wasd-controls-enabled="false"></a-camera>
+    </a-scene>
+  </div>
+  <p class="tour-instructions">Dining Room &mdash; Grace and Surrender</p>
+</div>
+
+<p class="tour-vr-note">This is a placeholder 360&deg; scene. Once real photos of the finished Golu are
+taken (using a phone's Panorama/Photo Sphere mode, or the free Google Street View app), they'll drop
+in here without changing anything else on this page.</p>
+
+<div class="cta-row">
+  <a class="cta-button secondary" href="golu-story.html">&larr; Back to the Golu Story</a>
+</div>
+
+<script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+<script>
+(function() {
+  var rooms = {
+    "dining-room": {label: "Dining Room", sublabel: "Grace and Surrender"}, "pooja-room": {label: "Pooja Room", sublabel: "The Journey of the Jīvātma"}
+  };
+  var buttons = document.querySelectorAll('.tour-room-btn');
+  var sky = document.getElementById('tour-sky');
+  var instructions = document.querySelector('.tour-instructions');
+  buttons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var roomId = btn.getAttribute('data-room');
+      buttons.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      sky.setAttribute('src', '#' + roomId + '-img');
+      var r = rooms[roomId];
+      instructions.textContent = r.label + ' — ' + r.sublabel;
+    });
+  });
+})();
+</script>
+
+
+<footer class="site">
+  <p>A humble family kainkaryam presenting the timeless teachings of our &Acirc;ch&amacr;ryas through art, technology, and storytelling.</p>
+  <p>Inspired by the teachings of Dr. Venkatesh Swamin &middot; &copy; 2026 Golu Journey Home Project</p>
+</footer>
+
+</div>
+</body>
+</html>
