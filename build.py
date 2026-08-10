@@ -285,6 +285,182 @@ hungers satisfied at once. In honor of this, the devotee came to be called "Thir
         mantra="Om Bh\u016bta Bh\u0101van\u0101ya Nama\u1e25a",
         connection="This closes Chapter 1 the way the Journey Home begins \u2014 with a Lord who does not wait to be asked before caring for the one who seeks Him.",
     ),
+    dict(
+        num=10, slug="putatma",
+        deva="पूतात्मा", tamil="பூதாத்மா", iast="P\u016bt\u0101tm\u0101",
+        meaning="The Pure Self who purifies whatever is offered to Him.",
+        story="""<p>Dr. Venkatesh tells the story behind Uppiliappan Kovil, near Kumbakonam. Perum\u0101\u1e37 once
+promised to accept only unsalted offerings there, and kept that word so seriously that even today,
+every pras\u0101dam offered to Uppiliappan is prepared entirely without salt.</p>
+<p>By Tamil proverb, food without salt belongs in the rubbish \u2014 tasteless, incomplete. Yet Dr.
+Venkatesh explains that because Uppiliappan is Himself <em>P\u016bt\u0101tm\u0101</em>, the Pure Self, He makes even
+this saltless offering into something sweeter than nectar for those who partake of it. Purity, not
+richness, is what transforms the offering.</p>""",
+        teaching="<em>P\u016bta</em> means pure; <em>\u0101tm\u0101</em> means self. Because Perum\u0101\u1e37 is Himself pure by nature, He purifies and elevates whatever touches Him or is offered to Him \u2014 even something as plain and \u201cincomplete\u201d as unsalted food becomes, in His hands, more delicious than amuta (nectar). The name teaches that it is His purity acting on the offering, not the offering's own richness, that makes it sacred.",
+        living="What matters isn't the richness of what we offer, but the purity of heart behind it.",
+        reflection="Offer one small, humble thing today, without worrying whether it's \u201cenough.\u201d",
+        mantra="Om P\u016bt\u0101tmane Nama\u1e25a",
+        connection="Just as Uppiliappan purifies even a saltless offering, the soul's own imperfect offerings are made pure and worthy on the journey home.",
+    ),
+    dict(
+        num=11, slug="paramatma",
+        deva="परमात्मा", tamil="பரமாத்மா", iast="Param\u0101tm\u0101",
+        meaning="The Supreme Self, who needs no support beyond Himself, yet supports every soul.",
+        story="""<p>Dr. Venkatesh tells of Nārada visiting Badrin\u0101th, where Badrin\u0101r\u0101ya\u1e47a sits in
+meditative yogic stillness. Curious who the Lord of the universe could possibly be meditating on,
+Nārada asks directly. Perum\u0101\u1e37 sends him across seven seas to \u015aveta Dv\u012bpa, where the people, when
+asked, say they meditate on none other than Badrin\u0101r\u0101ya\u1e47a Himself.</p>
+<p>Confused, Nārada returns for an answer. Perum\u0101\u1e37 smiles: "I meditate on Myself. You, as j\u012bv\u0101tmas,
+may meditate on Me as the indwelling Self within you. But there is no one above Me to be My own
+support \u2014 so I am My own support, and I meditate on Myself." This story appears in the Mah\u0101bh\u0101rata's
+\u015a\u0101nti Parva.</p>""",
+        teaching="Because Perum\u0101\u1e37 is the support (\u0101dh\u0101ra) for every soul, yet has no support above Himself \u2014 unlike every j\u012bv\u0101tma, who depends on Him as antary\u0101m\u012b \u2014 He is <em>Param\u0101tm\u0101</em>, the Supreme Self. Everything that exists ultimately rests on Him; He alone rests on nothing but Himself.",
+        living="Everything we rely on ultimately rests on Him \u2014 while He alone rests on nothing but Himself.",
+        reflection="Today, notice one thing you're leaning on, and trace it back to its true support.",
+        mantra="Om Param\u0101tmane Nama\u1e25a",
+        connection="As the soul travels toward Him, it travels toward the one Support that needs no support of its own \u2014 the final resting place at the end of every dependency.",
+    ),
+    dict(
+        num=12, slug="muktanam-parama-gatih",
+        deva="मुक्तानां परमा गतिः", tamil="முக்தானாம் பரமா கதி:", iast="Mukt\u0101n\u0101\u1e43 Param\u0101 Gati\u1e25",
+        meaning="The One whom liberated souls consider their highest goal \u2014 eternal service to Him.",
+        story="""<p>Dr. Venkatesh tells of R\u0101ma, departing for exile, refusing to let S\u012bt\u0101 accompany him onto
+thorned forest paths. S\u012bt\u0101 poses a test question first: define heaven and hell. When R\u0101ma gives the
+conventional answer \u2014 Indra's world and Yama's world \u2014 S\u012bt\u0101 tells him he's entirely wrong: heaven
+and hell mean something different to everyone. To her, she says simply, "Being with you is heaven;
+being without you is hell." R\u0101ma relents and takes her.</p>
+<p>Meanwhile, Lak\u1e63ma\u1e47a, who had waited outside, now performs \u015bara\u1e47\u0101gati at R\u0101ma's feet, begging to
+serve him in exile. When R\u0101ma questions why he must come \u2014 the exile was Kaikeyi's curse on R\u0101ma
+alone \u2014 Lak\u1e63ma\u1e47a explains: liberated souls in Vaiku\u1e47\u1e6dha long for the chance to serve R\u0101ma eternally
+after death, but he has the rarer fortune of serving Him <em>right now, while still alive on earth</em> \u2014
+and he refuses to let that chance slip by. R\u0101ma takes both S\u012bt\u0101 and Lak\u1e63ma\u1e47a with him.</p>""",
+        teaching="Lak\u1e63ma\u1e47a's own words give this name its meaning: liberated souls (<em>mukt\u0101s</em>) regard eternal kaink\u0101ryam to the Lord in Vaiku\u1e47\u1e6dha as their supreme goal (<em>param\u0101 gati\u1e25</em>) \u2014 and Lak\u1e63ma\u1e47a realized he had the rarer chance to begin that very service while still living. What liberated souls wait for after death, he refused to postpone.",
+        living="The highest goal isn't a distant reward reserved for later \u2014 it's the chance to serve Him today.",
+        reflection="Find one small way to serve someone today, as if it were your highest goal.",
+        mantra="Om Mukt\u0101n\u0101\u1e43 Param\u0101ya Gataye Nama\u1e25a",
+        connection="This name names the very destination of the Journey Home itself \u2014 not a place, but an eternal, joyful service at His feet, which every liberated soul seeks above all else.",
+    ),
+    dict(
+        num=13, slug="avyayah",
+        deva="अव्ययः", tamil="அவ்யயஃ", iast="Avyaya\u1e25",
+        meaning="The One who holds His devotees close and never lets them slip away.",
+        story="""<p>Dr. Venkatesh tells of King Yay\u0101ti, whose many acts of charity earned him a seat in
+heaven equal to Indra's own. Jealous, Indra schemes to bring him down: while celestial dancers
+perform, he goads Yay\u0101ti into boasting about his own generosity. The moment Yay\u0101ti's pride peaks \u2014
+claiming no one in the world has given more than him \u2014 he begins falling from his seat. Bṛhaspati
+explains: the fall began the instant the pride did.</p>
+<p>Yay\u0101ti lands in the yaj\u00f1a-hall of his own grandson, Pratardana, who explains that Indra acts this
+way only out of jealousy toward anyone who becomes his equal \u2014 and that Yay\u0101ti should have sought
+N\u0101r\u0101ya\u1e47a's feet instead. When Yay\u0101ti asks whether N\u0101r\u0101ya\u1e47a would cast him down too, Pratardana
+answers: Perum\u0101\u1e37 has no such jealousy \u2014 He delights when His devotees become His equals in eight
+divine qualities, and never pushes anyone away. Yay\u0101ti meditates on Perum\u0101\u1e37, practices bhakti
+yoga, and attains mok\u1e63a \u2014 from where, as the Upani\u1e63ad says, none ever return.</p>""",
+        teaching="<em>Vyaya</em> means to slip away or dissipate; <em>Avyaya\u1e25</em> means the One who does not let His devotees slip away \u2014 who holds them firmly within Himself. Unlike Indra, whose jealousy of an equal caused him to cast Yay\u0101ti down, Perum\u0101\u1e37 is delighted, not threatened, when His devotees rise toward becoming like Him, and He never lets go of anyone who reaches Him.",
+        living="Growth and closeness to Him are never threats to Him \u2014 only causes for His joy.",
+        reflection="Celebrate someone else's progress today without any hint of comparison.",
+        mantra="Om Avyay\u0101ya Nama\u1e25a",
+        connection="The soul making its way home can trust that once it reaches Him, unlike Yay\u0101ti in Indra's court, it will never be cast down or let slip away again.",
+    ),
+    dict(
+        num=14, slug="purushah",
+        deva="पुरुषः", tamil="புருஷஃ", iast="Puru\u1e63a\u1e25",
+        meaning="The One who gives Himself entirely to those who love Him.",
+        story="""<p>Dr. Venkatesh tells of R\u0101m\u0101nuja visiting the palace of the Sultan of Delhi to reclaim a
+deity taken during a raid on Thirun\u0101r\u0101ya\u1e47apuram. Shown every looted idol, R\u0101m\u0101nuja calls out,
+"Selvapill\u0101i v\u0101r\u0101i!" ("Come, my dear child!") to each, but none respond. Only one place remains
+unchecked: the Sultan's young daughter, who plays in her chambers with what she believes is a doll.</p>
+<p>Unable to enter the women's quarters, R\u0101m\u0101nuja calls from outside \u2014 and the deity runs straight
+from the princess's lap into his. Reinstalling Him at Thirun\u0101r\u0101ya\u1e47apuram, R\u0101m\u0101nuja notices tears
+during the consecration and asks why. Perum\u0101\u1e37 explains: the princess loved Him sincerely, whether
+or not she knew Him as God or merely as a doll \u2014 and that love moved Him. R\u0101m\u0101nuja, understanding
+her devotion, could not bear to separate them, and brought her too, consecrating her as "Bibi
+N\u0101chiy\u0101r" between the deity's two feet, where she is honored to this day.</p>""",
+        teaching="<em>Puru\u1e63a\u1e25</em> means the One who gives Himself entirely to those who love Him \u2014 Dr. Venkatesh notes the same root gives Tamil its word for husband (<em>puru\u1e63an</em>), one who gives himself wholly to his wife, keeping nothing back for himself. Just as Perum\u0101\u1e37 left the princess's lap the instant R\u0101m\u0101nuja called, and later refused to be separated from her devotion, He gives Himself completely to whoever truly loves Him \u2014 regardless of how imperfect or unknowing that love may be.",
+        living="Love this genuine doesn't go unnoticed \u2014 it draws Him completely to us, however small or uninformed that love may seem.",
+        reflection="Express one moment of genuine, uncalculated love today.",
+        mantra="Om Puru\u1e63\u0101ya Nama\u1e25a",
+        connection="The Journey Home ends not in distance but in total union \u2014 the same completeness with which He gave Himself to Bibi N\u0101chiy\u0101r awaits the soul that reaches Him.",
+    ),
+    dict(
+        num=15, slug="sakshi",
+        deva="साक्षी", tamil="ஸாக்ஷீ", iast="S\u0101k\u1e63\u012b",
+        meaning="The Witness who watches over all beings as they play the game of life.",
+        story="""<p>Dr. Venkatesh tells of sage Kalava, visiting Thentiruperai, who notices something unusual:
+Garu\u1e0da's shrine here stands slightly apart from the sanctum, rather than directly in front as in
+every other temple, where Garu\u1e0da normally serves as a mirror reflecting Perum\u0101\u1e37's beauty back to
+Him.</p>
+<p>Asked why, Garu\u1e0da explains: N\u0101mm\u0101\u1e37v\u0101r sang of this town's children, who are taught both
+Sanskrit and Tamil Vedas from a young age. When they play the street game <em>sadugudu</em> right in
+front of the temple, instead of the usual chant, they recite Vedic mantras and \u0100\u1e37v\u0101r p\u0101surams as
+they play. Garu\u1e0da has stepped aside so Perum\u0101\u1e37 can watch, unobstructed, as these children play \u2014
+delighting in the sight.</p>""",
+        teaching="Dr. Venkatesh draws out the larger point: this game is not the only game. Life itself is the play Perum\u0101\u1e37 has set us all into \u2014 and just as He watches the Thentiruperai children play, delighted, He watches every one of us live out our lives according to the rules He has laid down in the \u015b\u0101stras, present as witness to it all. Because He watches over every being engaged in the play of life, He is <em>S\u0101k\u1e63\u012b</em>, the Witness.",
+        living="Living well isn't about being unseen \u2014 it's remembering we're always watched, and delighted in, by the One who set the game.",
+        reflection="Do one task today as if you knew He were watching with delight.",
+        mantra="Om S\u0101k\u1e63i\u1e47e Nama\u1e25a",
+        connection="Every step of the soul's journey home unfolds under His watching, delighted gaze \u2014 nothing on the path happens unseen or unaccompanied.",
+    ),
+    dict(
+        num=16, slug="kshetrajnah",
+        deva="क्षेत्रज्ञः", tamil="க்ஷேத்ரஜ்ஞஃ", iast="K\u1e63etraj\u00f1a\u1e25",
+        meaning="The One who chooses the exact right place to grant complete grace.",
+        story="""<p>Dr. Venkatesh tells of Vibh\u012b\u1e63a\u1e47a, gifted the deity Ra\u1e45gan\u0101tha by R\u0101ma after the coronation,
+and granted the honor of nightly worship at Srirangam, where Perum\u0101\u1e37 chose to remain reclining
+forever. One night, Vibh\u012b\u1e63a\u1e47a asks whether lying in the same pose eternally isn't tiresome, and
+whether Perum\u0101\u1e37 might walk instead. Ra\u1e45gan\u0101tha agrees \u2014 but only at Thirukka\u1e47\u1e47apuram, on the east
+coast, on the next Amāvāsya, not at Srirangam.</p>
+<p>Puzzled why the two must be separate, Vibh\u012b\u1e63a\u1e47a goes anyway. At Thirukka\u1e47\u1e47apuram, Saurir\u0101ja
+Perum\u0101\u1e37 walks for him, and Vibh\u012b\u1e63a\u1e47a is overcome \u2014 trembling, weeping, momentarily fainting. When he
+recovers, he realizes: seeing Perum\u0101\u1e37 walk on this particular coast recalled the exact moment of his
+own surrender to R\u0101ma at Thiruppu\u1e37\u1e37\u0101\u1e47i's shore, where R\u0101ma had walked toward him declaring refuge
+to all who surrender even once. Had Perum\u0101\u1e37 walked at Srirangam instead, that specific memory would
+never have surfaced \u2014 only this exact place could complete the experience.</p>""",
+        teaching="<em>K\u1e63etram</em> means place; <em>K\u1e63etraj\u00f1a\u1e25</em> means the One who knows the right place. Dr. Venkatesh connects this directly to Thiruva\u1e37\u1e37uvar's teaching that no undertaking should begin without first understanding the right setting for it (<em>idam a\u1e5bithal</em>). Perum\u0101\u1e37 chose Srirangam for daily worship and Thirukka\u1e47\u1e47apuram specifically for revealing His walk \u2014 because only the second location would complete Vibh\u012b\u1e63a\u1e47a's grace with the fullest possible meaning.",
+        living="Grace often arrives in a specific place or moment for a reason we don't yet see \u2014 the setting is never incidental to Him.",
+        reflection="Notice today where you feel most drawn to Him, and honor that place.",
+        mantra="Om K\u1e63etraj\u00f1\u0101ya Nama\u1e25a",
+        connection="Just as He chose Thirukka\u1e47\u1e47apuram with precision for Vibh\u012b\u1e63a\u1e47a, He has chosen Paramapadam as the exact right destination for the soul's journey home.",
+    ),
+    dict(
+        num=17, slug="aksharah",
+        deva="अक्षरः", tamil="அக்ஷரஃ", iast="Ak\u1e63ara\u1e25",
+        meaning="The One who never diminishes \u2014 an ever-constant, unfading light.",
+        story="""<p>Dr. Venkatesh tells of Chandra (the Moon), married to all 27 daughters of Dak\u1e63a
+Praj\u0101pati \u2014 the 27 nak\u1e63atras \u2014 who favors only Rohi\u1e47\u012b and neglects the rest. Enraged, Dak\u1e63a curses
+Chandra with a wasting disease, and Chandra begins losing his kalas one by one \u2014 the origin of the
+waning moon \u2014 until nothing remains at Am\u0101v\u0101sy\u0101.</p>
+<p>Begging for release, Chandra points out to Dak\u1e63a that the curse harms Dak\u1e63a's own daughters too,
+since they are bound to Chandra. Dak\u1e63a relents and directs him to Mayil\u0101duthurai (Thiruindal\u016br),
+where Parimala Ra\u1e45gan\u0101than resides. Bathing in the temple's Indu Pu\u1e63kari\u1e47i tank and worshipping the
+deity there, Chandra regains his kalas one by one \u2014 the waxing moon \u2014 until he shines full again.
+\u0100\u1e37v\u0101r describes Perum\u0101\u1e37 here as a "nand\u0101 vilakku" \u2014 a lamp that never dims \u2014 in contrast to the very
+moon He healed.</p>""",
+        teaching="<em>K\u1e63aram</em> means to diminish or decay; <em>Ak\u1e63ara\u1e25</em> means without diminishment \u2014 ever full, never wanting. Having cured the Moon's own waning affliction, Perum\u0101\u1e37 Himself remains the opposite of what He healed: a constant, unwaning light, never subject to the cycles of increase and decrease that govern everything else in creation, including the very moon that bears His grace.",
+        living="Where the world around us waxes and wanes, He remains completely, reliably constant.",
+        reflection="Return today to one steady truth about Him when things around you feel uncertain.",
+        mantra="Om Ak\u1e63ar\u0101ya Nama\u1e25a",
+        connection="Where the journey itself has stages, phases, and changing light, the destination \u2014 Paramapadam, and the Lord who awaits there \u2014 never diminishes or changes.",
+    ),
+    dict(
+        num=18, slug="yogah",
+        deva="योगः", tamil="யோகஃ", iast="Yoga\u1e25",
+        meaning="The One who Himself becomes the means to liberation for those who cannot walk any other path.",
+        story="""<p>Dr. Venkatesh tells of Dadhipandan, a curd-seller in \u0100yarp\u0101\u1e0di who hides K\u1e5b\u1e63\u1e47a inside an
+empty pot when Ya\u015bod\u0101 comes searching for him. After she leaves, K\u1e5b\u1e63\u1e47a asks to be released \u2014 but
+Dadhipandan refuses without a boon in return: since K\u1e5b\u1e63\u1e47a frees souls from the cycle of birth,
+Dadhipandan now demands his own release be conditional on K\u1e5b\u1e63\u1e47a granting liberation to both himself
+<em>and the pot</em>.</p>
+<p>K\u1e5b\u1e63\u1e47a agrees \u2014 and the instant He is freed, both Dadhipandan and his pot attain Vaiku\u1e47\u1e6dha. Word
+spreads, and villagers ask the elder Garga \u0100c\u0101rya how a pot, or an unlearned man incapable of real
+bhakti yoga, could reach mok\u1e63a without the prescribed spiritual practice. Garga \u0100c\u0101rya explains: since
+neither could perform bhakti yoga themselves, K\u1e5b\u1e63\u1e47a placed Himself in the position of that very
+practice \u2014 becoming the means (yoga) itself, and granting liberation directly.</p>""",
+        teaching="<em>Yoga</em> means the means or method (<em>s\u0101dhanam</em>) by which something is attained. Dr. Venkatesh explains that though bhakti yoga is a genuine path to mok\u1e63a, it is difficult \u2014 and for those who cannot practice it, simple surrender is enough, because the Lord Himself becomes the path, the means, and the way there. Because He personally takes the place of the s\u0101dhanam for those who have none, He is called <em>Yoga\u1e25</em>.",
+        living="We don't need to earn our way to Him through perfect practice \u2014 for those who cannot, He can become the way itself.",
+        reflection="Let go of one thing today you've been trying to \u201cearn\u201d your way toward.",
+        mantra="Om Yog\u0101ya Nama\u1e25a",
+        connection="For a soul who cannot complete the journey home by its own effort or merit, this name is the promise that He Himself becomes the way there.",
+    ),
 ]
 
 by_num = {n["num"]: n for n in DIVINE_NAMES}
@@ -302,6 +478,11 @@ DISCOURSE_LINKS = {
     7: "https://youtu.be/JL52QwCnCS8",
     8: "https://youtu.be/Z1bg9vi_jVg",
     9: "https://youtu.be/rlIwlDL_lqI",
+    10: "https://www.youtube.com/watch?v=PvmMhD0yy4M&list=PLZOtgrSp1tzDpF-yqTRcib5F_dlMwccZ8&index=10",
+    13: "http://www.youtube.com/watch?v=ycKQilsHFG4",
+    15: "http://www.youtube.com/watch?v=nx8nAUu-F4Q",
+    16: "http://www.youtube.com/watch?v=KuOepmhU0AE",
+    17: "http://www.youtube.com/watch?v=k7gxhHin2w4",
 }
 
 STAGES = [
