@@ -551,3 +551,23 @@ footer.site a { color: rgba(230,199,101,0.85); }
   color: rgba(248,240,218,0.6);
   margin-top: 10px;
 }
+
+/* ---------- Pasuram pages ---------- */
+.verse { font-size: 1.25rem; line-height: 1.9; text-align: center; font-weight: 600; color: var(--maroon); }
+.deep-list { padding-left: 1.2rem; }
+.deep-list li { margin-bottom: 10px; }
+.reasons-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.reasons-table th, .reasons-table td { text-align: left; padding: 8px 6px; border-bottom: 1px solid rgba(201,162,39,0.4); vertical-align: top; }
+
+/* ---------- Malai Nadu Divya Desam ---------- */
+.dd-jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.dd-jump a { width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--gold); border-radius: 50%; text-decoration: none; font-family: 'Catamaran', sans-serif; font-weight: 700; color: var(--maroon); }
+.dd-card { background: var(--parchment); color: var(--ink); border: 1px solid rgba(201,162,39,0.5); border-radius: var(--radius); overflow: hidden; margin-top: 22px; }
+.dd-photo { position: relative; aspect-ratio: 4 / 3; background: linear-gradient(160deg, var(--indigo-mid), var(--indigo-deep)); }
+.dd-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.dd-ph-num { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: 'Cormorant Garamond', serif; font-size: 5rem; color: var(--gold-light); opacity: 0.6; }
+.dd-body { padding: 16px 18px 20px; }
+.dd-name { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--maroon); margin: 6px 0 2px; }
+.dd-sub { margin: 0 0 12px; color: var(--ink-soft); }
+.dd-body audio { width: 100%; }
+.dd-map { width: 100%; height: auto; border-radius: 12px; margin-top: 14px; }
