@@ -21,7 +21,7 @@ for i, (name, place, perumal) in enumerate(MALAI_NADU, 1):
     n = f"{i:02d}"
     _cards.append(f"""
 <section class="dd-card" id="dd{i}">
-  <div class="dd-photo"><span class="dd-ph-num">{i}</span><img src="../assets/malai-nadu/{n}.jpg" alt="{perumal}, {name}" loading="lazy" onerror="this.remove()"></div>
+  <div class="dd-photo"><span class="dd-ph-num">{i}</span><img src="../assets/malai-nadu/{n}.jpg" style="width:100%;height:100%;object-fit:contain" alt="{perumal}, {name}" loading="lazy" onerror="this.remove()"></div>
   <div class="dd-body">
     <span class="pathram-code">Divya Desam {i} of 13</span>
     <h2 class="dd-name">{i}. {name}</h2>
@@ -34,7 +34,8 @@ malai_body = f"""
 <div class="panel">
   <p class="section-title">Malai Nadu Divya Desam</p>
   <p>The thirteen sacred Perum&#257;l temples of Kerala and the far south, in order of the pilgrimage route, from the far south to the north. Tap a number to jump to a temple, then press play to listen.</p>
-  <img class="dd-map" src="../assets/malai-nadu/route-map.png" alt="Route map of the 13 Malai Nadu Divya Desams" onerror="this.remove()">
+  <a href="../assets/malai-nadu/route-map.png" target="_blank" rel="noopener"><img class="dd-map" style="display:block;width:100%;max-width:100%;height:auto" src="../assets/malai-nadu/route-map.png" alt="Route map of the 13 Malai Nadu Divya Desams" onerror="this.remove()"></a>
+  <p class="source-note">Tap the map to enlarge.</p>
   <div class="dd-jump">{_jump}</div>
 </div>
 {''.join(_cards)}
