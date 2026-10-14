@@ -3,7 +3,7 @@
 
 **How to use:** The website's "Simple Explanation" is carried by the audio. These entries are the "Deeper Śrī Vaiṣṇava Explanation" layer. Each has: the verse, the one reason the Lord gives for leading the soul (the decad's refrain), the word-by-word and theological explanation, and a line on the Vedic/śāstric link.
 
-**Source note on verses:** Verses are taken from Dr. Venkatesh's recitation in the transcripts. The auto-captions garble them, so spellings were regularised from the recitation and the meaning he gives. Three places differ from the caption and are flagged. **Please check every verse against a printed Divya Prabandham before publishing.**
+**Source note on verses (updated):** Verses now follow the printed-style text from prapatti.com (Sunder Kidāmbi edition, 10.9 Sūzh Visumbu), which replaced the spellings regularised from the transcripts. Older note: verses were taken from Dr. Venkatesh's recitation in the transcripts. The auto-captions garble them, so spellings were regularised from the recitation and the meaning he gives. Three places differ from the caption and are flagged. **Please check every verse against a printed Divya Prabandham before publishing.**
 
 **Source note on attributions:** "Nampiḷḷai (Īḍu)" and "Nāthamunigaḷ" etc. appear below only where Dr. Venkatesh himself cites them. Sanskrit ślokas quoted are by Vedānta Deśika (as read in the transcripts), and the English renderings are Dr. Venkatesh's ("Adiyen").
 
@@ -22,11 +22,11 @@
 ## Pasuram 1 — *Sūzh visumbu aṇi mugil*
 **Reason given: "En Appan" — the Lord is the soul's *father*, and a father leads his child by the hand.**
 
-**Verse (from recitation):**
-சூழ்விசும்பு அணிமுகில் தூரியம் முழக்கின
-ஆழ்கடல் அலைதிரை கையெடுத்து ஆடின
-ஏழ்பொழிலும் வளம் ஏந்திய என்னப்பன்
-வாழ்புகழ் நாரணன் தமரைக் கண்டுகந்தே
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
+சூழ் விசும்பணி முகில் தூரியம் முழக்கின
+ஆழ் கடல் அலை திரைக் கை எடுத்தாடின
+ஏழ் பொழிலும் வளம் ஏந்திய என் அப்பன்
+வாழ் புகழ் நாரணன் தமரைக் கண்டுகந்தே
 
 **Deeper explanation**
 - *Sūzh visumbu* = the sky that surrounds the earth on all sides, without a visible beginning or end. *Aṇi mugil* = the clouds, which are the sky's *ornament*, as earrings, bangles and a chain are ours.
@@ -42,11 +42,11 @@
 ## Pasuram 2 — *Nāraṇan tamarai kaṇḍu*
 **Reason given: "Nārāyaṇan" — the support (*ayana*) of all souls; one who supports must also carry them on the path.**
 
-**Verse (from recitation):**
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
 நாரணன் தமரைக் கண்டுகந்து நன்னீர் முகில்
-பூரணப் பொற்குடம் பூரித்தது உயர்விண்ணில்
-நீரணிக் கடல்கள் நின்றார்த்தன
-நெடுவரைத் தோரணம் நிறைத்தெங்கும் தொழுதனர் உலகே
+பூரண பொற்குடம் பூரித்ததுயர் விண்ணில்
+நீர் அணி கடல்கள் நின்றார்த்தன
+நெடு வரைத் தோரணம் நிரைத்து எங்கும் தொழுதனர் உலகே
 
 **Deeper explanation**
 - **Nārāyaṇa**: *nāra* = the collection of jīvātmās; *ayana* = support/abode. He is the ādhāra (support) of every soul, so He cannot leave them on the way.
@@ -62,11 +62,11 @@
 ## Pasuram 3 — *Tozhudanar ulagargaḷ*
 **Reason given: "Bhūmi andru aḷandavan" — Trivikrama, who once measured the worlds and placed His foot on every head.**
 
-**Verse (from recitation):**
-தொழுதனர் உலகர்கள் தூபநன் மலர்மழை
-பொழிவனர் பூமி அன்று அளந்தவன் தமர்
-முன்னே எழுமின் என்று இருமருங்கு இசைத்தனர்
-முனிவர்கள் வழி இது வைகுந்தற்கு என்று வந்தெதிரே
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
+தொழுதனர் உலகர்கள் தூப நல் மலர் மழை பொழிவனர்
+பூமி அன்றளந்தவன் தமர் முன்னே
+எழுமின் என்றிருமருங்கிசைத்தனர் முனிவர்கள்
+வழி இது வைகுந்தற்கென்று வந்தெதிரே
 
 **Deeper explanation**
 - The Lord who measured the earth as Trivikrama **placed His foot on everyone's head**. That was the *spiritual medicine* (*āṉmīga vaidyam*) to ripen *bhakti* and *jñāna*. Because of that touch the soul now goes to Vaikuṇṭha. Perumāḷ's joy at the result is greater than ours: "this treatment of mine has worked", so He receives them out of eagerness.
@@ -82,11 +82,11 @@
 ## Pasuram 4 — *Edhir edhir imaiyavar*
 **Reason given: "Mādhavan" — specially Kṛṣṇa, who came down to mix with us for a short time; will He not lead us to live with Him forever?**
 
-**Verse (from recitation):**
-எதிரெதிர் இமையவர் இருப்பிடம் வகுத்தனர்
-கதிரவர் அவரவர் கைந்நிறை காட்டினர்
-அதிர்குரல் முரசங்கள் அலைகடல் முழக்கொத்த
-மதுவிரி துழாய்முடி மாதவன் தமர்க்கே
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
+எதிர் எதிர் இமையவர் இருப்பிடம் வகுத்தனர்
+கதிரவர் அவர் அவர் கைந்நிரை காட்டினர்
+அதிர் குரல் முரசங்கள் அலை கடல் முழக்கொத்த
+மது விரி துழாய் முடி மாதவன் தமர்க்கே
 
 **Deeper explanation**
 - **Mādhavan** has two meanings: Lakṣmī's husband (see pasuram 5) and, as elders show, **Kṛṣṇa** specifically. Kṛṣṇa was born only to mix a little with us as a cowherd. He who comes down for a short association will certainly come to lead us to a permanent one.
@@ -105,11 +105,11 @@
 ## Pasuram 5 — *Mādhavan tamar endru vāsalil vānavar*
 **Reason given: "Mādhavan" as Lakṣmī's husband — Piraṭṭi delights when the Lord leads her children home.**
 
-**Verse (from recitation):**
-மாதவன் தமரெனா வாசலில் வானவர்
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
+மாதவன் தமர் என்று வாசலில் வானவர்
 போதுமின் எமதிடம் புகுதுக என்றலும்
-கீதங்கள் பாடினர் கின்னரர் கருடர்கள்
-வேதநல் வாயவர் வேள்வியுள் மடுத்தே
+கீதங்கள் பாடினர் கின்னரர் கெருடர்கள்
+வேதநல் வாயவர் வேள்வி உள் மடுத்தே
 
 **Deeper explanation**
 - **The reason (the fifth):** A wife is pleased with her husband when he **cares for the children**, even if he ignores her. So Piraṭṭi is pleased with Perumāḷ only when He leads His children (us) by the hand to Vaikuṇṭha. That is why Mādhavan takes each of us by the hand.
@@ -125,12 +125,11 @@
 ## Pasuram 6 — *Vāḷ oṇ kaṇ maḍandhaiyar*
 **Reason given: "Āzhiyān" — He holds the Sudarśana cakra; *su-darśana* = the perfect *path*; the Lord who carries the guide of the path will guide us.**
 
-**Verse (from recitation; the caption read *vāzh oṇ* — *vāḷ oṇ kaṇ* is the title form and fits the meaning):**
-வேள்வியுள் மடுத்தலும் விரைகமழ் நறும்புகை
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
+வேள்வி உள் மடுத்தலும் விரை கமழ் நறும் புகை
 காளங்கள் வலம்புரி கலந்தெங்கும் இசைத்தனர்
-ஆண்மின்கள் வானகம் ஆழியான் தமரெனா
-வாள்நுண் கண் மடந்தையர் வாழ்த்தினர் மகிழ்ந்தே
-*(Check: Dr. Venkatesh reads the third-fourth words as "vāḷ oṇ kaṇ" — "bright, beautiful eyes" — and the caption rendering "nuṇ" should be confirmed in print.)*
+ஆண்மின்கள் வானகம் ஆழியான் தமர் என்று
+வாள் ஒண் கண் மடந்தையர் வாழ்த்தினர் மகிழ்ந்தே
 
 **Deeper explanation**
 - **Sudarśana:** *darśana* = path / way of seeing. *Su-darśana* = the excellent path. The Lord keeps the Sudarśana cakra in hand because the Lord leads devotees along the path to Vaikuṇṭha. (He ties it to calling Rāmānuja's way *Rāmānuja Darśanam* — one who made the way straight.)
@@ -146,11 +145,11 @@
 ## Pasuram 7 — *Maḍandhaiyar vāzhttalum*
 **Reason given: Saulabhya (accessibility) and Saushīlya (gracious condescension) — "Kuḍandai Kōvalan".**
 
-**Verse (from recitation):**
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
 மடந்தையர் வாழ்த்தலும் மருதரும் வசுக்களும்
-தொடர்ந்தெங்கும் தோத்திரம் சொல்லினர் தொடுகடல்
-கிடந்தவெம் கேசவன் கிளரொளி மணிமுடி
-குடந்தையெம் கோவலன் குடியடியார்க்கே
+தொடர்ந்தெங்கும் தோத்திரம் சொல்லினர்
+தொடு கடல் கிடந்த எம் கேசவன் கிளர் ஒளி மணி முடி
+குடந்தை எம் கோவலன் குடி அடியார்க்கே
 
 **Deeper explanation**
 - **The two qualities.** *Saulabhya* = being easily approachable: the Lord rests nearby at **Kumbakōṇam (Tirukkuḍandai)**, where devotees can come and serve Him. *Saushīlya* = *nīrmai*, mixing with all in simplicity: as a cowherd (*kōvalan* = Gopāla) mixing with the calves. One who is both near and gentle will not sit in Vaikuṇṭha and wait; He comes and takes the soul by the hand.
@@ -165,10 +164,10 @@
 ## Pasuram 8 — *Kuḍiyaḍiyār ivar Gōvindan*
 **Reason given: "Gōvindan" — the Lord who shepherds the cows; we are His cattle who cannot find the pasture, and He leads us to the best pasture, Vaikuṇṭha.**
 
-**Verse (from recitation):**
-குடியடியார் இவர் கோவிந்தன் தனக்கென்று
-முடியுடை வானவர் முறைமுறை எதிர்கொள்ள
-கொடியணி நெடுமதிள் கோபுரம் குறுகினர்
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
+குடி அடியார் இவர் கோவிந்தன் தனக்கென்று
+முடி உடை வானவர் முறை முறை எதிர் கொள்ள
+கொடி அணி நெடு மதிள் கோபுரம் குறுகினர்
 வடிவுடை மாதவன் வைகுந்தம் புகவே
 
 **Deeper explanation**
@@ -186,12 +185,11 @@
 ## Pasuram 9 — *Vaikuntham pugudalum*
 **Reason given: "Vaikuṇṭha" itself — *vi-kuṇṭha* = without obstruction (kuṇṭha). He gives the experience without a single break, so He starts giving it as soon as the soul leaves the body.**
 
-**Verse (from recitation; one reading flagged below):**
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
 வைகுந்தம் புகுதலும் வாசலில் வானவர்
-வைகுந்தன் தமரெமர் எமதிடம் புகுதென்று
-வைகுந்தத்து அமரரும் முனிவரும் வியந்தனர்
+வைகுந்தன் தமர் எமர் எமதிடம் புகுதென்று
+வைகுந்தத்தமரரும் முனிவரும் வியந்தனர்
 வைகுந்தம் புகுவது மண்ணவர் விதியே
-*(Flag: the caption reads "maṉṉavar" in Dr. Venkatesh's reading; the last lines of the caption show "maṇṇavar". "Maṇṇavar" (those of the earth) is the sense he explains — please confirm in print.)*
 
 **Deeper explanation**
 - **Why "Vaikuṇṭha"?** *Kuṇṭha* = obstacle; *vi-kuṇṭha* = place of no obstacle. The Lord wants no break in the experience. He gives the *arcā* experience in this life, the *glimpse* on the path, and unending *kaiṅkarya* at Vaikuṇṭha. So He walks with us from the moment we leave the body.
@@ -207,11 +205,11 @@
 ## Pasuram 10 — *Vidhi vagai pugundanar*
 **Reason given: Perumāḷ has *appointed 500 attendants* for each incoming soul — the proof of His affection (*abhimāna*).**
 
-**Verse (from recitation):**
-விதிவகை புகுந்தனர் என்று நல்வேதியர்
-பதியினிற் பாங்கினிற் பாதங்கள் கழுவினர்
-நிதியும் நற்சுண்ணமும் நிறைகுட விளக்கமும்
-மதிமுக மடந்தையர் ஏந்தினர் வந்தே
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
+விதி வகை புகுந்தனர் என்று நல் வேதியர்
+பதியினில் பாங்கினில் பாதங்கள் கழுவினர்
+நிதியும் நற்சுண்ணமும் நிறை குட விளக்கமும்
+மதி முக மடந்தையர் ஏந்தினர் வந்தே
 
 **Deeper explanation**
 - **500 apsarases** (*madhi-muga maḍandhaiyar*, **of Vaikuṇṭha, not of the devas**) are appointed *for each jīva*. "Do not read this worldly-royal." They are attendants of Lakṣmī, and they themselves bow to the Mukta as they lead him in.
@@ -230,12 +228,11 @@
 ## Pasuram 11 — *Vandu avar edhirkoḷḷa* (the phalashruti)
 **Reason given: Perumāḷ Himself comes with Thāyār to receive him.**
 
-**Verse (from recitation, with Dr. Venkatesh's splitting):**
-வந்தவர் எதிர்கொள்ள மாமணி மண்டபத்து
-அந்தமில் பேரின்பத்து அடியரோடு இருந்தமை
+**Verse (text of the prapatti.com edition, Sunder Kidāmbi):**
+வந்தவர் எதிர் கொள்ள மா மணி மண்டபத்து
+அந்தமில் பேர் இன்பத்து அடியரோடிருந்தமை
 கொந்தலர் பொழில் குருகூர்ச் சடகோபன்
 சொல் சந்தங்கள் ஆயிரத்து இவை வல்லார் முனிவரே
-*(He reads "vandu avar edhirkoḷḷa" — see below.)*
 
 **Deeper explanation**
 - **The split reading.** *"Vandavar edhirkoḷḷa"* could mean "those who had already come received him". Dr. Venkatesh splits it: ***"vandu avar edhirkoḷḷa"*** — **"He (*avar*) Himself came and received"**. *Avar* is the Lord with Piraṭṭi. Sending the Nityasūris was *not enough* for Him. Perumāḷ (seated on Ādiśeṣa with Thāyār) **rose, came to the gate of the Tirumāmaṇi Maṇḍapam**, and said: "Kurukūr Śaṭhakōpa! We waited only for your arrival; we rejoice at your coming."
