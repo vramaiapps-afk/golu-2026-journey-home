@@ -1,5 +1,5 @@
 /* ============================================================
-   The Journey Home â€” NÃ¢rayaÃ±a Anugraha Patram
+   The Journey Home — Nârayaña Anugraha Patram
    Shared stylesheet. Palette and type echo the printed cards:
    deep indigo, antique gold, parchment cream, temple maroon.
    ============================================================ */
@@ -574,3 +574,8 @@ footer.site a { color: rgba(230,199,101,0.85); }
 
 /* Virtual Tour paused: hide its menu link on every page */
 nav.primary a[href$="virtual-tour.html"]{display:none}
+
+/* Take-home card */
+.card-panel{text-align:center}
+.card-img{max-width:100%;height:auto;border-radius:8px;box-shadow:0 2px 12px rgba(0,0,0,.35);display:block;margin:0 auto}
+.card-note{font-size:.9rem;margin-top:10px}
