@@ -41,8 +41,8 @@ GOPURAM_SVG = """
 NAV_ITEMS = [
     ("home", "Home", "/index.html"),
     ("golu-story", "The Golu Story", "/golu-story.html"),
-    ("tour", "Virtual Tour", "/virtual-tour.html"),
     ("journey", "Journey Home", "/journey-home/index.html"),
+    ("gallery", "Film & Gallery", "/gallery/index.html"),
     ("malai", "Malai Nadu Divya Desam", "/malai-nadu/index.html"),
     ("names", "Divine Name Collection", "/divine-names/index.html"),
     ("audio", "Audio Guides", "/audio-guides.html"),
@@ -140,7 +140,7 @@ the highest wealth of bhakti and j\u00f1\u0101na.</p>""",
         teaching="<em>Vi\u015bvam</em> means being completely whole (<em>parip\u016br\u1e47a</em>) in <em>svabh\u0101va</em> (nature), <em>sv\u0101r\u016bpa</em> (form), and every gu\u1e47a (quality) \u2014 nothing lacking in any respect. Because Perum\u0101\u1e37 is Himself entirely whole, He extends that same fullness to any devotee who draws near Him, granting complete wealth in every sense \u2014 from ordinary worldly wealth to the highest wealth of bhakti and j\u00f1\u0101na. Nothing He gives is ever partial, because nothing in Him is ever partial.",
         living="When we serve without calculating what we'll get in return, the Lord ensures nothing we truly need is lacking.",
         reflection="Do one act of service today without keeping track of what comes back.",
-        mantra="Om Vi\u015bv\u0101ya Nama\u1e25a",
+        mantra="Om Vi\u015bv\u0101ya Nama\u1e25",
         connection="As the exhibition opens with the soul's journey home, Vi\u015bvam reminds us the One we're journeying toward is already complete \u2014 the fullness we seek was never missing on His side.",
     ),
     dict(
@@ -159,7 +159,7 @@ single thing, everywhere.</p>""",
         teaching="The word <em>Vi\u1e63\u1e47u</em> comes from the root <em>vi\u1e63</em>, to enter and pervade completely. Because the entire universe and every being within it is His body, and He dwells inside as the indwelling Self (antar\u0101tm\u0101), nothing and no one stands truly outside Him. Dr. Venkatesh draws out the implication directly: separation from another being is, at the deepest level, an illusion \u2014 even someone we consider an enemy shares the same indwelling Lord we do.",
         living="Remembering this dissolves hatred and conflict \u2014 we're never truly separate from the one we're upset with.",
         reflection="Notice one moment of irritation today, and remember He dwells in them too.",
-        mantra="Om Vi\u1e63\u1e47ave Nama\u1e25a",
+        mantra="Om Vi\u1e63\u1e47ave Nama\u1e25",
         connection="The Archir\u0101dhi M\u0101rga is only possible because the Lord already pervades every step of the path \u2014 the soul never truly travels away from Him.",
     ),
     dict(
@@ -177,7 +177,7 @@ very man plotting to insult Him \u2014 had made even Duryodhana rise involuntari
         teaching="<em>Va\u1e63a\u1e6dk\u0101ra\u1e25a</em> means the Controller who directs every being from within \u2014 not from outside, issuing visible commands, but from inside each person's own will and impulse. Even Duryodhana, actively plotting to insult K\u1e5b\u1e63\u1e47a, was moved by that same inner Controller to rise in respect without ever realizing it. Dr. Venkatesh's point: the Lord's control operates so intimately that we often mistake His direction for our own free choice.",
         living="This brings humility when things go well, and trust rather than despair when they don't.",
         reflection="Notice one small decision today, and quietly acknowledge the inner Guide behind it.",
-        mantra="Om Va\u1e63a\u1e6dk\u0101r\u0101ya Nama\u1e25a",
+        mantra="Om Va\u1e63a\u1e6dk\u0101r\u0101ya Nama\u1e25",
         connection="The same inner Controller who guided Duryodhana without his knowing is the One who will guide the soul's journey along the Archir\u0101dhi M\u0101rga.",
     ),
     dict(
@@ -189,13 +189,13 @@ asked an astrologer for a life longer than Brahm\u0101's \u2014 not out of greed
 savor every festival at each of the 108 Divya De\u015bams unhurriedly, again and again, rather than
 rushing through them as a checklist.</p>
 <p>The astrologer told him only the Lord who rules past, present, and future could grant a boon
-beyond time itself, and gave him the mantra <em>Bh\u016bta Bhavya Bhavat Prabhave Nama\u1e25a</em> to recite
+beyond time itself, and gave him the mantra <em>Bh\u016bta Bhavya Bhavat Prabhave Nama\u1e25</em> to recite
 daily. Perum\u0101\u1e37 appeared and granted the boon: for every lifetime of Brahm\u0101 that passed, one hair
 would fall from Roma\u015ba's body \u2014 and he would live until every hair had fallen.</p>""",
         teaching="<em>Bh\u016bta</em> means the past, <em>bhavya</em> the present, <em>bhavat</em> the future, and <em>prabhu</em> means master. Because He alone rules over all three divisions of time \u2014 yesterday, today, and tomorrow \u2014 only He can grant a boon that exceeds the limits time places on an ordinary lifetime, as He did for Roma\u015ba, whose lifespan was tied to every hair on his own body.",
         living="When we feel rushed to \u201cfinish\u201d our devotion like a checklist, this name reminds us the Lord who holds all time is never in a hurry either.",
         reflection="Slow down one routine act of devotion today, and let it be unhurried.",
-        mantra="Om Bh\u016bta Bhavya Bhavat Prabhave Nama\u1e25a",
+        mantra="Om Bh\u016bta Bhavya Bhavat Prabhave Nama\u1e25",
         connection="The soul's journey home is not a race \u2014 the Master of all three times welcomes the jivatma however long the path takes.",
     ),
     dict(
@@ -211,7 +211,7 @@ means of the entire creation.</p>""",
         teaching="Every ordinary object needs three distinct causes: an <em>up\u0101d\u0101na k\u0101ra\u1e47a</em> (material cause \u2014 the dosa batter), a <em>nimitta k\u0101ra\u1e47a</em> (efficient cause, the maker \u2014 the cook), and a <em>sahak\u0101ri k\u0101ra\u1e47a</em> (instrumental cause \u2014 the griddle and tools). Dr. Venkatesh's answer to why the universe needs only one cause: like a spider that draws its web's material from its own body, is the web's maker, and uses its own body as the instrument, Perum\u0101\u1e37 alone is simultaneously the material, the maker, and the means of all creation. <em>K\u1e5bt</em> means the one who causes or creates.",
         living="Nothing we create is ever truly separate from us \u2014 in the same way, all creation remains inseparable from Him.",
         reflection="Notice one thing you made or grew today, and see your own hand in it as He sees His.",
-        mantra="Om Bh\u016btak\u1e5bt\u0101ya Nama\u1e25a",
+        mantra="Om Bh\u016btak\u1e5bt\u0101ya Nama\u1e25",
         connection="Since He is the source of all creation, the soul returning to Him is simply returning to its own origin.",
     ),
     dict(
@@ -221,7 +221,7 @@ means of the entire creation.</p>""",
         story="""<p>Dr. Venkatesh tells of a poor devotee in Srirangam who, with a large family to feed, kept
 asking for extra pras\u0101dam without offering any recitation in return \u2014 until temple staff turned him
 away. R\u0101m\u0101nuja discovered he knew only the first six names of the Sahasran\u0101ma, and told him simply
-to recite <em>Bh\u016btabh\u1e5bte Nama\u1e25a</em> daily \u2014 food would find him.</p>
+to recite <em>Bh\u016btabh\u1e5bte Nama\u1e25</em> daily \u2014 food would find him.</p>
 <p>The man stopped coming to the temple, yet a portion of pras\u0101dam began mysteriously disappearing
 each day. Investigation revealed it was being delivered to him by a servant introducing himself as
 "Ra\u1e45gan\u0101than" \u2014 R\u0101m\u0101nuja's disciple. R\u0101m\u0101nuja realized Lord Ra\u1e45gan\u0101tha Himself had taken that
@@ -229,7 +229,7 @@ form, keeping His word to the humble devotee.</p>""",
         teaching="Dr. Venkatesh draws a direct line from the previous name: <em>Bh\u016btak\u1e5bt</em> (name 5) is the One who creates every being; <em>Bh\u016btabh\u1e5bt</em> (this name) is the One who continues to sustain and nourish what He created. <em>Bh\u1e5bt</em> means to bear, feed, or sustain. A poor devotee who knew only this name recited it daily, as R\u0101m\u0101nuja instructed \u2014 and pras\u0101dam began mysteriously reaching him each day, delivered by Lord Ra\u1e45gan\u0101tha Himself in disguise, proving the name's promise in the most literal way.",
         living="Even the smallest devotion, offered sincerely, is enough for the Lord to provide for what we truly need.",
         reflection="Recite this name once today, trusting that what you need will find you.",
-        mantra="Om Bh\u016btabh\u1e5bte Nama\u1e25a",
+        mantra="Om Bh\u016btabh\u1e5bte Nama\u1e25",
         connection="Just as He sustained that devotee daily, He sustains the soul through every stage of the Archir\u0101dhi M\u0101rga.",
     ),
     dict(
@@ -246,7 +246,7 @@ He is called <em>Bh\u0101va\u1e25</em>.</p>""",
         teaching="Dr. Venkatesh explains this name through the image of a peacock's tail: folded, it looks ordinary, but unfurled, all its intrinsic beauty is suddenly visible. Before creation, all the worlds exist folded and compact within Perum\u0101\u1e37, just as the peacock's feathers exist compact before opening. At the moment of creation \u2014 and, as this story shows, whenever He chooses \u2014 He unfurls what was always folded within Him, and the worlds spring forth. <em>Bh\u0101va\u1e25</em> means the One who causes all worlds to arise, or unfold, from Himself.",
         living="What looks ordinary and folded-up in us may hold beauty and vastness we haven't yet shown the world.",
         reflection="Let one hidden part of yourself show today, rather than staying folded away.",
-        mantra="Om Bh\u0101v\u0101ya Nama\u1e25a",
+        mantra="Om Bh\u0101v\u0101ya Nama\u1e25",
         connection="The vastness Perum\u0101\u1e37 revealed to Duryodhana is the same vastness the soul beholds on reaching Paramapadam.",
     ),
     dict(
@@ -264,7 +264,7 @@ Him dwelling as its innermost Self.</p>""",
         teaching="<em>Bh\u016bta</em> here means all created things; <em>\u0101tm\u0101</em> means the indwelling soul. Because every element \u2014 earth, water, fire, air, sky \u2014 and every jiv\u0101tma is His body, Dr. Venkatesh explains a striking consequence: harm done to one part of that body is felt in another. Cut down the earth's trees, and the sky withholds its rain in anger; overbuild the land, and the sea rises in anger and sends a tsunami \u2014 because both land and sea are the same body, His body, and a strike on one part is felt in the other.",
         living="Since all creation is His body, harm done in one place is felt elsewhere \u2014 a reminder that nothing we do is ever truly isolated.",
         reflection="Today, treat one part of the natural world around you as part of His body.",
-        mantra="Om Bh\u016bt\u0101tmane Nama\u1e25a",
+        mantra="Om Bh\u016bt\u0101tmane Nama\u1e25",
         connection="The jiv\u0101tma making the journey home is itself a body to Him \u2014 the same closeness Y\u0101j\u00f1avalkya described is what welcomes the soul at every stage.",
     ),
     dict(
@@ -284,7 +284,7 @@ hungers satisfied at once. In honor of this, the devotee came to be called "Thir
         teaching="Perum\u0101\u1e37 Himself explains this name in the story: just as a hungry body depends on its indwelling soul to seek out food for it, He is the soul within every being \u2014 so when the \u0100\u1e37v\u0101r's body grew hungry, He as the indwelling Self felt that hunger as His own and moved to satisfy it, feeding both body (with the pongal) and soul (with the sight of His own beauty) at once. <em>Bh\u0101vana</em> means the One who nurtures and nourishes \u2014 going beyond simply giving life (as in Bh\u016btak\u1e5bt, name 5) to actively caring for what that life needs to flourish.",
         living="The Lord doesn't just sustain us from a distance \u2014 He feels our need as His own and moves to meet it before we've asked.",
         reflection="Today, offer food or care to someone else first, before yourself.",
-        mantra="Om Bh\u016bta Bh\u0101van\u0101ya Nama\u1e25a",
+        mantra="Om Bh\u016bta Bh\u0101van\u0101ya Nama\u1e25",
         connection="This closes Chapter 1 the way the Journey Home begins \u2014 with a Lord who does not wait to be asked before caring for the one who seeks Him.",
     ),
     dict(
@@ -301,7 +301,7 @@ richness, is what transforms the offering.</p>""",
         teaching="<em>P\u016bta</em> means pure; <em>\u0101tm\u0101</em> means self. Because Perum\u0101\u1e37 is Himself pure by nature, He purifies and elevates whatever touches Him or is offered to Him \u2014 even something as plain and \u201cincomplete\u201d as unsalted food becomes, in His hands, more delicious than amuta (nectar). The name teaches that it is His purity acting on the offering, not the offering's own richness, that makes it sacred.",
         living="What matters isn't the richness of what we offer, but the purity of heart behind it.",
         reflection="Offer one small, humble thing today, without worrying whether it's \u201cenough.\u201d",
-        mantra="Om P\u016bt\u0101tmane Nama\u1e25a",
+        mantra="Om P\u016bt\u0101tmane Nama\u1e25",
         connection="Just as Uppiliappan purifies even a saltless offering, the soul's own imperfect offerings are made pure and worthy on the journey home.",
     ),
     dict(
@@ -319,7 +319,7 @@ support \u2014 so I am My own support, and I meditate on Myself." This story app
         teaching="Because Perum\u0101\u1e37 is the support (\u0101dh\u0101ra) for every soul, yet has no support above Himself \u2014 unlike every j\u012bv\u0101tma, who depends on Him as antary\u0101m\u012b \u2014 He is <em>Param\u0101tm\u0101</em>, the Supreme Self. Everything that exists ultimately rests on Him; He alone rests on nothing but Himself.",
         living="Everything we rely on ultimately rests on Him \u2014 while He alone rests on nothing but Himself.",
         reflection="Today, notice one thing you're leaning on, and trace it back to its true support.",
-        mantra="Om Param\u0101tmane Nama\u1e25a",
+        mantra="Om Param\u0101tmane Nama\u1e25",
         connection="As the soul travels toward Him, it travels toward the one Support that needs no support of its own \u2014 the final resting place at the end of every dependency.",
     ),
     dict(
@@ -339,7 +339,7 @@ and he refuses to let that chance slip by. R\u0101ma takes both S\u012bt\u0101 a
         teaching="Lak\u1e63ma\u1e47a's own words give this name its meaning: liberated souls (<em>mukt\u0101s</em>) regard eternal kaink\u0101ryam to the Lord in Vaiku\u1e47\u1e6dha as their supreme goal (<em>param\u0101 gati\u1e25</em>) \u2014 and Lak\u1e63ma\u1e47a realized he had the rarer chance to begin that very service while still living. What liberated souls wait for after death, he refused to postpone.",
         living="The highest goal isn't a distant reward reserved for later \u2014 it's the chance to serve Him today.",
         reflection="Find one small way to serve someone today, as if it were your highest goal.",
-        mantra="Om Mukt\u0101n\u0101\u1e43 Param\u0101ya Gataye Nama\u1e25a",
+        mantra="Om Mukt\u0101n\u0101\u1e43 Param\u0101ya Gataye Nama\u1e25",
         connection="This name names the very destination of the Journey Home itself \u2014 not a place, but an eternal, joyful service at His feet, which every liberated soul seeks above all else.",
     ),
     dict(
@@ -360,7 +360,7 @@ yoga, and attains mok\u1e63a \u2014 from where, as the Upani\u1e63ad says, none 
         teaching="<em>Vyaya</em> means to slip away or dissipate; <em>Avyaya\u1e25</em> means the One who does not let His devotees slip away \u2014 who holds them firmly within Himself. Unlike Indra, whose jealousy of an equal caused him to cast Yay\u0101ti down, Perum\u0101\u1e37 is delighted, not threatened, when His devotees rise toward becoming like Him, and He never lets go of anyone who reaches Him.",
         living="Growth and closeness to Him are never threats to Him \u2014 only causes for His joy.",
         reflection="Celebrate someone else's progress today without any hint of comparison.",
-        mantra="Om Avyay\u0101ya Nama\u1e25a",
+        mantra="Om Avyay\u0101ya Nama\u1e25",
         connection="The soul making its way home can trust that once it reaches Him, unlike Yay\u0101ti in Indra's court, it will never be cast down or let slip away again.",
     ),
     dict(
@@ -380,7 +380,7 @@ N\u0101chiy\u0101r" between the deity's two feet, where she is honored to this d
         teaching="<em>Puru\u1e63a\u1e25</em> means the One who gives Himself entirely to those who love Him \u2014 Dr. Venkatesh notes the same root gives Tamil its word for husband (<em>puru\u1e63an</em>), one who gives himself wholly to his wife, keeping nothing back for himself. Just as Perum\u0101\u1e37 left the princess's lap the instant R\u0101m\u0101nuja called, and later refused to be separated from her devotion, He gives Himself completely to whoever truly loves Him \u2014 regardless of how imperfect or unknowing that love may be.",
         living="Love this genuine doesn't go unnoticed \u2014 it draws Him completely to us, however small or uninformed that love may seem.",
         reflection="Express one moment of genuine, uncalculated love today.",
-        mantra="Om Puru\u1e63\u0101ya Nama\u1e25a",
+        mantra="Om Puru\u1e63\u0101ya Nama\u1e25",
         connection="The Journey Home ends not in distance but in total union \u2014 the same completeness with which He gave Himself to Bibi N\u0101chiy\u0101r awaits the soul that reaches Him.",
     ),
     dict(
@@ -399,7 +399,7 @@ delighting in the sight.</p>""",
         teaching="Dr. Venkatesh draws out the larger point: this game is not the only game. Life itself is the play Perum\u0101\u1e37 has set us all into \u2014 and just as He watches the Thentiruperai children play, delighted, He watches every one of us live out our lives according to the rules He has laid down in the \u015b\u0101stras, present as witness to it all. Because He watches over every being engaged in the play of life, He is <em>S\u0101k\u1e63\u012b</em>, the Witness.",
         living="Living well isn't about being unseen \u2014 it's remembering we're always watched, and delighted in, by the One who set the game.",
         reflection="Do one task today as if you knew He were watching with delight.",
-        mantra="Om S\u0101k\u1e63i\u1e47e Nama\u1e25a",
+        mantra="Om S\u0101k\u1e63i\u1e47e Nama\u1e25",
         connection="Every step of the soul's journey home unfolds under His watching, delighted gaze \u2014 nothing on the path happens unseen or unaccompanied.",
     ),
     dict(
@@ -420,7 +420,7 @@ never have surfaced \u2014 only this exact place could complete the experience.<
         teaching="<em>K\u1e63etram</em> means place; <em>K\u1e63etraj\u00f1a\u1e25</em> means the One who knows the right place. Dr. Venkatesh connects this directly to Thiruva\u1e37\u1e37uvar's teaching that no undertaking should begin without first understanding the right setting for it (<em>idam a\u1e5bithal</em>). Perum\u0101\u1e37 chose Srirangam for daily worship and Thirukka\u1e47\u1e47apuram specifically for revealing His walk \u2014 because only the second location would complete Vibh\u012b\u1e63a\u1e47a's grace with the fullest possible meaning.",
         living="Grace often arrives in a specific place or moment for a reason we don't yet see \u2014 the setting is never incidental to Him.",
         reflection="Notice today where you feel most drawn to Him, and honor that place.",
-        mantra="Om K\u1e63etraj\u00f1\u0101ya Nama\u1e25a",
+        mantra="Om K\u1e63etraj\u00f1\u0101ya Nama\u1e25",
         connection="Just as He chose Thirukka\u1e47\u1e47apuram with precision for Vibh\u012b\u1e63a\u1e47a, He has chosen Paramapadam as the exact right destination for the soul's journey home.",
     ),
     dict(
@@ -440,7 +440,7 @@ moon He healed.</p>""",
         teaching="<em>K\u1e63aram</em> means to diminish or decay; <em>Ak\u1e63ara\u1e25</em> means without diminishment \u2014 ever full, never wanting. Having cured the Moon's own waning affliction, Perum\u0101\u1e37 Himself remains the opposite of what He healed: a constant, unwaning light, never subject to the cycles of increase and decrease that govern everything else in creation, including the very moon that bears His grace.",
         living="Where the world around us waxes and wanes, He remains completely, reliably constant.",
         reflection="Return today to one steady truth about Him when things around you feel uncertain.",
-        mantra="Om Ak\u1e63ar\u0101ya Nama\u1e25a",
+        mantra="Om Ak\u1e63ar\u0101ya Nama\u1e25",
         connection="Where the journey itself has stages, phases, and changing light, the destination \u2014 Paramapadam, and the Lord who awaits there \u2014 never diminishes or changes.",
     ),
     dict(
@@ -460,7 +460,7 @@ practice \u2014 becoming the means (yoga) itself, and granting liberation direct
         teaching="<em>Yoga</em> means the means or method (<em>s\u0101dhanam</em>) by which something is attained. Dr. Venkatesh explains that though bhakti yoga is a genuine path to mok\u1e63a, it is difficult \u2014 and for those who cannot practice it, simple surrender is enough, because the Lord Himself becomes the path, the means, and the way there. Because He personally takes the place of the s\u0101dhanam for those who have none, He is called <em>Yoga\u1e25</em>.",
         living="We don't need to earn our way to Him through perfect practice \u2014 for those who cannot, He can become the way itself.",
         reflection="Let go of one thing today you've been trying to \u201cearn\u201d your way toward.",
-        mantra="Om Yog\u0101ya Nama\u1e25a",
+        mantra="Om Yog\u0101ya Nama\u1e25",
         connection="For a soul who cannot complete the journey home by its own effort or merit, this name is the promise that He Himself becomes the way there.",
     ),
     dict(
@@ -479,7 +479,7 @@ becomes R\u0101m\u0101nuja's disciple, and through that guidance, attains libera
         teaching="<em>Net\u0101</em> means guide \u2014 the same root that gives Subhas Chandra Bose his title \u201cNet\u0101ji,\u201d for guiding India's freedom struggle. Dr. Venkatesh explains that Perum\u0101\u1e37 Himself takes the role of guide for anyone seeking mok\u1e63a, pointing them not necessarily to Himself directly, but to the true \u0101c\u0101rya who can lead them there \u2014 as He did by redirecting the singer's pride toward R\u0101m\u0101nuja.",
         living="Talent or devotion alone doesn't guarantee the right path — sometimes even the most gifted among us need a guide to point the way.",
         reflection="Think of one person who has genuinely guided you, and thank them today.",
-        mantra="Om Yogavid\u0101\u1e43 Netre Nama\u1e25a",
+        mantra="Om Yogavid\u0101\u1e43 Netre Nama\u1e25",
         connection="The Archir\u0101dhi M\u0101rga itself is a guided path \u2014 this name reminds us the soul is never left to find the way home alone.",
     ),
     dict(
@@ -500,7 +500,7 @@ returns home to find his stepmother welcoming him with \u0101rati and his father
         teaching="<em>Pradh\u0101nam</em> refers to insentient matter (<em>achetana</em>) \u2014 objects without awareness; <em>Puru\u1e63a\u1e25</em> refers to sentient souls (<em>chetana</em>) \u2014 beings with awareness, like us. Because Perum\u0101\u1e37, as \u012a\u015bvara, completely controls both categories \u2014 every object and every soul \u2014 He is <em>Pradh\u0101napuru\u1e63e\u015bvara\u1e25</em>. Once Dhruva had His grace, both categories turned in his favor at once: the people around him, and the circumstances themselves.",
         living="When we're aligned with Him, even the people and circumstances that once opposed us can turn in our favor \u2014 nothing is outside His reach.",
         reflection="Notice one circumstance that feels against you right now, and consider that it might still turn.",
-        mantra="Om Pradh\u0101na Puru\u1e63e\u015bvar\u0101ya Nama\u1e25a",
+        mantra="Om Pradh\u0101na Puru\u1e63e\u015bvar\u0101ya Nama\u1e25",
         connection="The same Lord who governs every soul and every circumstance is the One guiding each stage of the soul's journey home, leaving nothing to chance.",
     ),
     dict(
@@ -520,7 +520,7 @@ in that single moment.</p>""",
         teaching="<em>Vapu\u1e25</em> means form or bodily shape. Dr. Venkatesh clarifies that Narasimha here stands as a representative example (<em>upalak\u1e63a\u1e47am</em>) of a broader principle: whenever a devotee cries out in genuine danger, Perum\u0101\u1e37 takes on whatever form \u2014 not necessarily Narasimha specifically \u2014 is exactly suited to protect them in that moment, arriving instantly rather than in some generic or delayed way.",
         living="Help doesn't always come in the form we expect — but it comes in the form that's exactly needed for the danger at hand.",
         reflection="Recall one moment help arrived in an unexpected way, and give thanks for it today.",
-        mantra="Om N\u0101rasi\u1e43havapu\u1e63e Nama\u1e25a",
+        mantra="Om N\u0101rasi\u1e43havapu\u1e63e Nama\u1e25",
         connection="On the journey home, whatever form of guidance or protection the soul needs at each stage — the Vishnu Dh\u016btas, Agni, the Viraj\u0101 crossing — is provided exactly as needed, the same way Narasimha appeared exactly when \u015aa\u1e45kara needed Him.",
     ),
     dict(
@@ -542,7 +542,7 @@ protection is what makes Him alone worthy of the title.</p>""",
         teaching="\u015ar\u012b carries several meanings, one of which is beauty itself. Dr. Venkatesh explains that Mah\u0101lak\u1e63m\u012b, who sits on Perum\u0101\u1e37's chest in every other form (where she cannot see His face clearly), moves specifically to Narasi\u1e43ha's lap so she can gaze directly at this beauty \u2014 a beauty defined not by appearance, but by fierce, instant protection of a devotee. This is why only Narasi\u1e43ha, among all the forms, carries the special epithet \u201c<em>azhagiya singar</em>\u201d (the beautiful lion) \u2014 no other form is called beautiful in quite this way.",
         living="True beauty isn't in how someone looks, but in how fiercely they show up when we need them most.",
         reflection="Show up fiercely for someone today, the way you'd want to be shown up for.",
-        mantra="Om \u015ar\u012bmate Nama\u1e25a",
+        mantra="Om \u015ar\u012bmate Nama\u1e25",
         connection="Just as Mah\u0101lak\u1e63m\u012b moved for a clearer view of this fierce, protective beauty, the soul on its journey home moves toward the same Lord whose beauty is inseparable from His care for those who reach Him.",
     ),
     dict(
@@ -561,7 +561,7 @@ with long, flowing hair \u2014 vindicating the priest's claim and sparing him th
         teaching="<em>Ke\u015bam</em> means hair. Dr. Venkatesh notes that this name doesn't celebrate physical beauty for its own sake \u2014 it commemorates a specific act of protection, where Perum\u0101\u1e37 personally intervened, taking on an unusual and specific form (long hair, matching the priest's claim exactly) purely to save a devotee from unjust punishment. The deity at Thirukka\u1e47\u1e47apuram is still called \u201cSaurir\u0101ja Perum\u0101\u1e37\u201d in honor of this event.",
         living="He steps in personally to protect those who serve Him, even in the smallest, most unexpected ways \u2014 down to a detail as specific as a strand of hair.",
         reflection="Defend someone today who can't defend themselves.",
-        mantra="Om Ke\u015bav\u0101ya Nama\u1e25a",
+        mantra="Om Ke\u015bav\u0101ya Nama\u1e25",
         connection="This name shows a Lord who intervenes in exact, specific detail for a devotee in trouble \u2014 the same attentiveness that accompanies the soul through each precise stage of its journey home.",
     ),
     dict(
@@ -580,7 +580,7 @@ kill on his own shoulder from then on \u2014 depicted today at Thiruvellarai as 
         teaching="Dr. Venkatesh lays out three categories of soul: <em>Puru\u1e63as</em> \u2014 bound souls still living on earth; <em>Puru\u1e63ottu</em> (Muktas) \u2014 souls liberated after living here and surrendering; and <em>Puru\u1e63ottarar</em> (Nityas) \u2014 eternal souls like Garu\u1e0da and \u0100di\u015be\u1e63a who never entered sa\u1e43s\u0101ra at all. Because Perum\u0101\u1e37 is superior to all three categories \u2014 as He proved even to the eternal, exalted Garu\u1e0da \u2014 He is <em>Puru\u1e63ottama\u1e25</em>, supreme above every kind of being.",
         living="What we take pride in as \u201cour own\u201d strength often has a source beyond us worth acknowledging.",
         reflection="Credit one strength of yours today to where it truly came from.",
-        mantra="Om Puru\u1e63ottam\u0101ya Nama\u1e25a",
+        mantra="Om Puru\u1e63ottam\u0101ya Nama\u1e25",
         connection="Even the eternal attendants of Vaiku\u1e47\u1e6dha owe their strength to Him \u2014 a reminder that the soul's journey home ends not in self-sufficiency, but in recognizing the Source of everything, always.",
     ),
     dict(
@@ -600,7 +600,7 @@ eating alone satisfies every being within it.</p>""",
         teaching="<em>Sarvam</em> means everything. Dr. Venkatesh draws the analogy directly: a single mouth eating nourishes an entire body without every organ needing to eat separately, because the body is one interconnected whole. In the same way, because the entire universe and every being in it is Perum\u0101\u1e37's own body, His single act reaches and satisfies all of it at once \u2014 hence <em>Sarva\u1e25</em>.",
         living="What nourishes the whole eventually reaches every part — care given anywhere ripples everywhere, even where we can't see it land.",
         reflection="Do one act of care today, trusting it reaches further than you can see.",
-        mantra="Om Sarv\u0101ya Nama\u1e25a",
+        mantra="Om Sarv\u0101ya Nama\u1e25",
         connection="Just as one act at \u015ar\u012bniv\u0101sa's wedding nourished every guest across every world, the Lord's grace on the soul's journey home reaches every stage at once, not one at a time.",
     ),
     dict(
@@ -619,7 +619,7 @@ event, calling the Lord of Kandiy\u016br the medicine (<em>marunthu</em>) that r
         teaching="From the root <em>\u015bru</em> \u2014 to destroy \u2014 comes <em>\u015barvan</em>, the destroyer of sins and sorrows. Dr. Venkatesh distinguishes this from the previous name, <em>Sarva\u1e25</em> (having everything as His body): this name, <em>\u015barva\u1e25</em>, is specifically about destruction of affliction at its root. Though \u015aiva himself carries the name \u015aarvan too, it is Narayana \u2014 who removed even \u015aiva's own sorrow \u2014 who is praised as <em>\u015barva\u1e25</em> in the Sahasran\u0101ma.",
         living="No burden is too old or too deeply stuck to be released — even the mightiest among us sometimes need this same grace.",
         reflection="Name one thing you're still carrying, and consciously set it down today.",
-        mantra="Om \u015aarv\u0101ya Nama\u1e25a",
+        mantra="Om \u015aarv\u0101ya Nama\u1e25",
         connection="If even \u015aiva's ancient affliction could be destroyed at Thirukkandiy\u016br, no burden the soul carries on its journey home is too heavy to be released before reaching Him.",
     ),
     dict(
@@ -638,7 +638,7 @@ who showers every kind of good fortune upon those who take refuge in Him \u2014 
         teaching="<em>\u015aiva</em> means the auspicious one, and also the one who generates auspiciousness for others. Dr. Venkatesh closes Chapter 3 on this note: Perum\u0101\u1e37 doesn't merely avoid harm \u2014 He actively showers only good fortune upon devotees who come to Him, making this name a fitting close to the theme of protection that runs through this entire chapter.",
         living="This name reminds us: the Protector's ultimate gift isn't just safety from harm, but auspiciousness and good fortune itself.",
         reflection="Wish someone well today, and mean it as a genuine offering, not just a phrase.",
-        mantra="Om \u015aiv\u0101ya Nama\u1e25a",
+        mantra="Om \u015aiv\u0101ya Nama\u1e25",
         connection="As Chapter 3 closes, this name carries the soul's journey forward into Chapter 4 — protection given not just to spare us from harm, but to fill our path home with auspiciousness at every step.",
     ),
     dict(
@@ -662,7 +662,7 @@ its own at any stage.</p>""",
         teaching="<em>Sthāṇuḥ</em> means steady, like a firm pillar. Dr. Venkatesh explains that Perumāḷ is steadfastly, unwaveringly committed to raising His devotees higher and higher, stage by stage, however long it takes — patiently waiting through a lizard's birth, then a scholar's pride, then a disciple's surrender, until mokṣa is finally granted. The One who began the lizard's journey never once wavered in His resolve to finish it.",
         living="Growth in devotion rarely happens in one leap — it happens in patient, unglamorous stages, each one preparing the next, none of them wasted.",
         reflection="Notice one small, unfinished stage of your own growth today, and trust the steadiness guiding it.",
-        mantra="Om Sthāṇavē Namaḥa",
+        mantra="Om Sthāṇavē Namaḥ",
         connection="Just as the lizard was carried, lifetime after lifetime, toward Rāmānuja and mokṣa without ever having to find the way itself, the soul's journey home is guided by this same unwavering steadiness — the Guide who never lets go partway.",
     ),
     dict(
@@ -689,7 +689,7 @@ unbidden.</p>""",
         teaching="<em>Būta</em> means all created beings, and <em>ādiḥ</em> means the origin. Dr. Venkatesh teaches that because the Lord is the origin of every being, we are drawn to Him the moment we meet Him — an attraction, a love, rising within us even when we do not know who He is. Being the source of all, He attracts all, and so He is called <em>Bhūtādiḥ</em>.",
         living="The pull we feel toward what is good and beautiful may be older than we know — a quiet homing instinct toward our Source.",
         reflection="Notice one thing today that draws your heart without reason, and thank its Source.",
-        mantra="Om Bhūtādayē Namaḥa",
+        mantra="Om Bhūtādayē Namaḥ",
         connection="The parents loved without knowing why; the soul, too, feels the pull toward its Origin long before it knows the way, and that pull is the first step of the journey home.",
     ),
     dict(
@@ -709,7 +709,7 @@ worshipped Perumāḷ and found, in Him, the one treasure that could never be ta
         teaching="<em>Nidhi</em> means treasure; <em>avyayaḥ</em> means that which never perishes or diminishes at any time. Dr. Venkatesh pairs this with the Āḷvārs' own experience: however vast one's worldly wealth, it is destined to end one day, but Perumāḷ alone is the imperishable treasure that pours out undiminished bliss and liberation to His devotees across every age, never running dry.",
         living="Every worldly treasure we hold can be taken from us — by time, by circumstance, by someone else's greed. Only what we build in devotion can never be plundered.",
         reflection="Name one thing you treasure today that could be lost, and one that never can be.",
-        mantra="Om Avyayanidhayē Namaḥa",
+        mantra="Om Avyayanidhayē Namaḥ",
         connection="Kubera learned that even a king of treasuries can be robbed of everything but one — the same undiminishing treasure the soul finds waiting at the end of its journey home, never to be taken away again.",
     ),
     dict(
@@ -731,7 +731,7 @@ good employment abroad.</p>""",
         teaching="<em>Sambhavaḥ</em> means one who appears in the exact form fitting each age. Dr. Venkatesh traces this across the four yugas — Naraśiṃha and Vāmana in Kṛta Yuga, Rāma in Trētā, Kṛṣṇa in Dvāpara — and, with warm humor, suggests that for today's generation, drawn to visas and careers abroad, Perumāḷ meets them exactly where they are, as 'Visa Bālāji.' He is not rigid about the form He takes — only about reaching the devotee.",
         living="The Lord doesn't insist we come to Him in one fixed way — He meets each of us, each generation, where our actual longings are, and draws us forward from there.",
         reflection="Notice what you're genuinely longing for today, and bring that honestly into your prayer.",
-        mantra="Om Sambhavāya Namaḥa",
+        mantra="Om Sambhavāya Namaḥ",
         connection="The farmer who could no longer climb the hill found that Perumāḷ came down to dig Himself out and meet him halfway — just as the Guide meets the soul partway on the journey home, however far it has fallen behind.",
     ),
     dict(
@@ -751,7 +751,7 @@ come in his form to protect his worship from interruption.</p>""",
         teaching="<em>Bhāvanaḥ</em> means the One who arises within His devotees' sincere inner feeling (<em>bhāva</em>) and personally fulfills it. Dr. Venkatesh teaches that Perumāḷ takes whatever form is needed — even taking on a devotee's own identity — the instant loving devotion calls for it, so that nothing can come between a devotee and their worship.",
         living="When our devotion is sincere, help arrives in forms we never expect — sometimes protecting the very thing we were worried about losing.",
         reflection="Trust one act of devotion today, even an interrupted or imperfect one, to be completed by grace.",
-        mantra="Om Bhāvanāya Namaḥa",
+        mantra="Om Bhāvanāya Namaḥ",
         connection="Sena never had to choose between duty and devotion — Perumāḷ Himself stepped in; the same Guide who steps into the gaps on the soul's journey home when devotion alone cannot carry it all the way.",
     ),
     dict(
@@ -773,7 +773,7 @@ later became a disciple of Rāmānuja himself.</p>""",
         teaching="<em>Bhartā</em> means the One who bears, sustains, and protects. Dr. Venkatesh teaches that Perumāḷ never abandons those who trust Him and His devotees, holding up their honor, their life, and their dharma intact even in the most desperate circumstances — carrying them, like an eyelid shields the eye, through situations they could never have survived alone.",
         living="When we act rightly out of devotion, even at real personal cost, we are never carrying that risk alone.",
         reflection="Do one right thing today that costs you something, trusting you are held through it.",
-        mantra="Om Bhartrē Namaḥa",
+        mantra="Om Bhartrē Namaḥ",
         connection="She risked everything to feed her Acārya and was carried safely through it — the same bearing, sustaining grace that holds the soul through every uncertain stage of its journey home.",
     ),
     dict(
@@ -795,7 +795,7 @@ could call "birth."</p>""",
         teaching="<em>Prabhavaḥ</em> comes from <em>bhavaḥ</em> (birth) with the prefix <em>pra</em> (exalted, elevated) — birth that rises above ordinary birth. Dr. Venkatesh explains that where we are born bound by karma, Perumāḷ chooses His own parents, His own form, His own moment, descending purely out of grace — making even His \"birth\" a a gift rather than a bondage.",
         living="Where we have no choice over the circumstances of our own birth, the Lord's every descent is chosen freely, purely for our sake — a reminder that grace, not compulsion, moves Him toward us.",
         reflection="Reflect today on one way grace, not obligation, has shaped your life.",
-        mantra="Om Prabhavāya Namaḥa",
+        mantra="Om Prabhavāya Namaḥ",
         connection="However humble our own birth, this name promises it can still be elevated by grace — just as the soul's journey home lifts an ordinary life into something extraordinary by the time it arrives.",
     ),
     dict(
@@ -820,7 +820,7 @@ them, could bind Perumāḷ's own decision about when that happened.</p>""",
         teaching="<em>Prabhuḥ</em> means the One who commands and controls everyone, yet whom no rule can ever bind. Dr. Venkatesh teaches that every law, every scripture, every cosmic ordinance operates under Perumāḷ's authority — but His own will is never subject to them; He grants concessions, mercy, even liberation, entirely on His own terms.",
         living="Rules and consequences govern our lives, but grace itself is never bound by our sense of what's fair — it can arrive on terms we'd never have calculated.",
         reflection="Let go of one expectation today about how grace \"should\" work, and simply receive it.",
-        mantra="Om Prabhavē Namaḥa",
+        mantra="Om Prabhavē Namaḥ",
         connection="śiśupāla's long-delayed homecoming was never in doubt, however long the detour — a reminder that the Guide's own authority over the soul's journey home is never bound by how long or winding the path looks from here.",
     ),
     dict(
@@ -841,7 +841,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Īśvaraḥ</em> means the One who exercises absolute command (<em>āḷumai</em>) — the capacity to govern and direct everything. Dr. Venkatesh emphasizes that Perumāḷ's command is not limited to Vaikuṇṭha; the same full authority travels with Him into every avatāra, so that even as a human child in Gokulam, He could command Death itself without diminishment.",
         living="True authority isn't a position we occupy — it travels with us into every circumstance, humble or grand, because it comes from character and grace, not just rank.",
         reflection="Exercise one act of quiet, caring authority today over something only you can steady.",
-        mantra="Om Īśvarāya Namaḥa",
+        mantra="Om Īśvarāya Namaḥ",
         connection="If Perumāḷ's command over Yama Himself never wavered even in a humble gurukula story, Chapter 4 closes on this certainty: the same unbroken authority governs every stage of the soul's journey home, right to the very end.",
     ),
     dict(
@@ -853,7 +853,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Svayambh\u016b\u1e25</em> means the One who appears as He wishes. Dr. Venkatesh explains the Mothers' point: we are born in bodies of the five elements, shaped by our karma, but when Perum\u0101\u1e37 descends He takes a divine form made of pure <em>sattva</em> (<em>pa\u00f1ca-upani\u1e63ad-maya</em>), entirely by His own will.",
         living="Our bodies come to us shaped by our past; His form is chosen out of love alone. That difference is the whole difference between bondage and grace.",
         reflection="Pause once today and give thanks for your body, then remember it is only a loan for the journey.",
-        mantra="Om Svayambhav\u0113 Nama\u1e25a",
+        mantra="Om Svayambhav\u0113 Nama\u1e25",
         connection="As we begin Chapter 5, the Lord who needs no body of karma comes among us in a form of His own choosing, and that same freedom is what He holds out to the soul at the end of its journey home.",
     ),
     dict(
@@ -865,7 +865,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>\u015aam</em> is true spiritual joy, and <em>\u015aambhu\u1e25</em> is the One who gives it. Dr. Venkatesh teaches that D\u0101sar did not give up love; in one glance he saw where real joy lives. The delight found in family, friends and the world does not hold it. It is found in Perum\u0101\u1e37 alone. He cites Ma\u1e47av\u0101\u1e37a M\u0101mu\u1e49i's verse on how He draws His devotees close.",
         living="Joys of the world are real, but they are small windows. This name points to the light they were all opening onto.",
         reflection="Ask yourself today which of your joys leave you at peace, and spend a little more time there.",
-        mantra="Om \u015aambhav\u0113 Nama\u1e25a",
+        mantra="Om \u015aambhav\u0113 Nama\u1e25",
         connection="D\u0101sar's change happened in a single glance. On the soul's journey home, one true sight of the Lord is enough to turn every other attachment into service.",
     ),
     dict(
@@ -877,7 +877,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>\u0100dityah</em> is the One who stands at the centre of the sun as its <em>antary\u0101mi</em>. Dr. Venkatesh explains that from there He watches over every devotee, so that no distance, a thousand miles included, stands between a cry for help and His answer. He also notes that He holds the conch and discus in hand so no time is lost when someone calls.",
         living="Help is never far when it is truly called for. The distance we imagine between us and the Lord is only ours.",
         reflection="Next time you feel alone in a difficulty today, say His name once and trust it has been heard.",
-        mantra="Om \u0100dity\u0101ya Nama\u1e25a",
+        mantra="Om \u0100dity\u0101ya Nama\u1e25",
         connection="Draupad\u012b was rescued across a thousand miles; the soul on its journey home is likewise watched from the sun's centre, and none of its calls go unanswered.",
     ),
     dict(
@@ -889,7 +889,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Pu\u1e63kara</em> means lotus and <em>ak\u1e63a</em> means eye. Dr. Venkatesh teaches that if those eyes could hold even a r\u0101k\u1e63as\u012b so completely, no devotee can fail to be drawn by them. Through His glance (<em>kat\u0101k\u1e63a</em>) He removes the devotee's every shortcoming and draws them to Himself.",
         living="What we look at shapes us. A single glance at what is truly beautiful can hold the heart more firmly than anything else.",
         reflection="Rest your eyes today for one minute on something beautiful and offer that looking to Him.",
-        mantra="Om Pu\u1e63kar\u0101k\u1e63\u0101ya Nama\u1e25a",
+        mantra="Om Pu\u1e63kar\u0101k\u1e63\u0101ya Nama\u1e25",
         connection="The first sight of His eyes is what turns the soul from all else; on the journey home, His glance is the very thing that draws it forward.",
     ),
     dict(
@@ -901,7 +901,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Mah\u0101svana\u1e25</em> is the One whose voice is the origin of the Vedas and of the <em>pra\u1e47ava</em> (Om). Dr. Venkatesh teaches that He lets this sound ring out both when He creates and when He protects, and it brings fearlessness to the devoted and dread to the hostile.",
         living="Speech that comes from a steady heart carries weight. Fear loosens its grip where the Lord's name is sounded.",
         reflection="Say one thing today slowly, clearly and kindly, as if it mattered.",
-        mantra="Om Mah\u0101svan\u0101ya Nama\u1e25a",
+        mantra="Om Mah\u0101svan\u0101ya Nama\u1e25",
         connection="The roar that lifted the earth from the ocean is the same sound that lifts the soul out of fear and carries it onward on its journey home.",
     ),
     dict(
@@ -913,7 +913,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>An\u0101dinidhana\u1e25</em> is the One who has neither origin nor end. Dr. Venkatesh teaches that we turn between birth and death under the grip of time, while He holds time in His hand, the Lord of the wheel of time (<em>k\u0101la cakra</em>), and is Himself untouched by it.",
         living="Everything we cling to has a beginning and an end. Only the One we are turning toward has neither.",
         reflection="Think of one thing that worries you and ask whether it will matter a thousand years from now. Then rest in the One who will.",
-        mantra="Om An\u0101dinidhan\u0101ya Nama\u1e25a",
+        mantra="Om An\u0101dinidhan\u0101ya Nama\u1e25",
         connection="The child on the banyan leaf is still there when all else has dissolved. That is the place the soul is heading to: the one home that does not end.",
     ),
     dict(
@@ -925,7 +925,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Dh\u0101t\u0101</em> means the One who sows. Dr. Venkatesh teaches that just as R\u0101ma sowed M\u0101r\u012bca so the epic could flourish, before creation the Lord wished the world to spread into many branches, and sowed Brahm\u0101 as a seed in the primal matter (<em>m\u016bla prak\u1e5bti</em>), so that all creation could grow through him.",
         living="Some things that seem to be left unfinished are in fact seeds being planted for a larger growth later.",
         reflection="Name one unfinished thing in your life and ask what it might be growing toward.",
-        mantra="Om Dh\u0101tr\u0113 Nama\u1e25a",
+        mantra="Om Dh\u0101tr\u0113 Nama\u1e25",
         connection="Even what looked like a pause in the story was a seed. On the journey home, no delay is wasted in His hands.",
     ),
     dict(
@@ -937,7 +937,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Dh\u0101t\u0101</em> creates the world in general from its source material; <em>Vidh\u0101t\u0101</em> goes beyond the usual laws to arrange each soul's creation and its fruits according to its own past karma. That is why He is also called the One who fixes destiny (<em>vidhi</em>).",
         living="What looks like fate, even the harshest, is held in hands that arrange it with care. We are never just the leftover of chance.",
         reflection="Think of one hard circumstance of your life and pray for the grace to see it as arranged, not accidental.",
-        mantra="Om Vidh\u0101tr\u0113 Nama\u1e25a",
+        mantra="Om Vidh\u0101tr\u0113 Nama\u1e25",
         connection="The same One who arranges each soul's destiny is the One who arranges its way home, bending even karma toward the end of the path.",
     ),
     dict(
@@ -949,7 +949,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Dh\u0101tu</em> is the creator, here Brahm\u0101, and <em>uttama\u1e25</em> means the highest. Dr. Venkatesh points out the secret: Brahm\u0101 made Ahaly\u0101 out of the elements, bone, flesh and skin. But R\u0101ma gave life afresh to a lifeless rock with the dust of His feet and renewed her, lifting a curse that even Brahm\u0101 could not remove.",
         living="Nothing is so hardened that it cannot be softened by grace. What feels like stone in us can be brought to life.",
         reflection="Name one thing in you that feels stuck like stone, and offer it to Him.",
-        mantra="Om Dh\u0101turuttam\u0101ya Nama\u1e25a",
+        mantra="Om Dh\u0101turuttam\u0101ya Nama\u1e25",
         connection="With Dh\u0101turuttama\u1e25, Chapter 5 closes on a stone brought to life by His feet, as the soul on its journey home is raised and made new at the end.",
     ),
     dict(
@@ -961,7 +961,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Prameya</em> is what can be measured, and <em>Aprameyaḥ</em> is the One who cannot. Dr. Venkatesh cites the Veda, <em>yato vāco nivartante aprāpya manasā saha</em>, where speech and mind turn back unable to reach Him, and the Āḷvārs' invitation to keep savouring His endless qualities.",
         living="Our small worries and narrow thinking come from trying to hold everything inside our own measure. Letting go of that measure is a relief.",
         reflection="Name one thing you are trying to fully understand today, and offer the rest to the One beyond measure.",
-        mantra="Om Aprameyāya Namaḥa",
+        mantra="Om Aprameyāya Namaḥ",
         connection="The final chapter opens on a Lord no one can fit into a measure; the journey home leads to Someone we will keep discovering forever.",
     ),
     dict(
@@ -973,7 +973,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Hṛṣīkēśaḥ</em> is the Lord of the senses. Dr. Venkatesh teaches that if we want our senses not to lead us astray, we must hand the reins to Him, the One who moves the senses of every being.",
         living="Rather than fighting the senses alone, we can give them something worth turning toward.",
         reflection="Choose one sense today, such as sight or hearing, and give it only something that points to Him.",
-        mantra="Om Hṛṣīkēśāya Namaḥa",
+        mantra="Om Hṛṣīkēśāya Namaḥ",
         connection="On the journey home the senses are not silenced but turned to Him; they become the ways in which the soul finally sees, hears and savours Him.",
     ),
     dict(
@@ -985,7 +985,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Padma</em> is lotus and <em>nābhi</em> is navel. Dr. Venkatesh teaches that the Lord is the source of all worlds, mother and father of all beings, who carries Brahmā on the lotus of His navel so that creation can begin.",
         living="Every new beginning, however creative, rests on something we did not make.",
         reflection="Before starting something new today, pause and thank the One who is its source.",
-        mantra="Om Padmanābhāya Namaḥa",
+        mantra="Om Padmanābhāya Namaḥ",
         connection="Brahmā searched for the lotus's root and found it only by turning to Him in tapas; the soul too finds its source not by searching downward, but by looking up to Him.",
     ),
     dict(
@@ -997,7 +997,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Amara</em> are the immortals, the devas, and <em>prabhuḥ</em> their master. Dr. Venkatesh teaches that Perumāḷ protects even Brahmā and Śiva whenever they are in danger, because He is the leader of the whole family.",
         living="Even the greatest need a protector. There is no shame in asking for refuge.",
         reflection="Let someone know today that you need help with something you have been carrying alone.",
-        mantra="Om Amaraprabhavē Namaḥa",
+        mantra="Om Amaraprabhavē Namaḥ",
         connection="If even Brahmā and Śiva were protected by Him, no soul on the journey home is too small to be sheltered.",
     ),
     dict(
@@ -1009,7 +1009,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Viśva</em> is the world and <em>karma</em> is work or creation. Dr. Venkatesh teaches that the divine carpenter known as Viśvakarmā is only a small portion of Him; the original Architect is Perumāḷ Himself, who fashioned everything by His will alone.",
         living="Nothing about you is accidental; every detail, down to a fingerprint, is the work of a Maker who does not repeat Himself.",
         reflection="Look closely at your own hand today and remember the One who made it.",
-        mantra="Om Viśvakarmaṇē Namaḥa",
+        mantra="Om Viśvakarmaṇē Namaḥ",
         connection="The One who fashioned every world is the One who prepares the way home; the journey is designed, not left to chance.",
     ),
     dict(
@@ -1022,7 +1022,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Manuḥ</em> is the One who contemplates, who governs by His resolve. Dr. Venkatesh teaches that He is also the inner Self of the sage Manu who gave the law, and that the sun, the moon, the earth, the wind and the sea keep their courses only by His will.",
         living="Order in the world is not an accident; it rests on a will that cares for us.",
         reflection="Notice one steady thing today, like sunrise or breath, and see it as held by His will.",
-        mantra="Om Manavē Namaḥa",
+        mantra="Om Manavē Namaḥ",
         connection="He carried a whole sleeping city to safety in one night; the soul on its way home is carried in the same way, by His will and not by its own strength.",
     ),
     dict(
@@ -1034,7 +1034,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Tvaṣṭā</em> is the carpenter or sculptor who chips away what is rough and reveals form. Dr. Venkatesh teaches that as the sculptor removes waste wood, the Lord removes our karma, ego, desire and anger with the chisel of His grace, and shapes us into pure souls. At dissolution He also draws the whole universe back into Himself.",
         living="What feels like loss in us, the rough edges being taken off, may be the sculptor at work.",
         reflection="Think of one rough habit and ask the Sculptor to take it away, gently.",
-        mantra="Om Tvaṣṭrē Namaḥa",
+        mantra="Om Tvaṣṭrē Namaḥ",
         connection="The journey home is a long carving: at each stage something false is removed until only the soul's true form stands in His presence.",
     ),
     dict(
@@ -1046,7 +1046,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Sthaviṣṭhaḥ</em> is the One of the most vast form. Dr. Venkatesh teaches that reciting the eleventh chapter of the Gītā, the Viśvarūpa Darśana Yoga, or contemplating this name, gives the fruit of beholding the cosmic form, and that those who cannot go on pilgrimage receive the merit of all the holy waters.",
         living="The places we long to reach are already held within Him; no journey is wasted when the heart is turned toward Him.",
         reflection="If there is a place you have always wanted to go, offer that longing to Him today.",
-        mantra="Om Sthaviṣṭāya Namaḥa",
+        mantra="Om Sthaviṣṭāya Namaḥ",
         connection="This devotee reached Paramapadam at the end of a journey he could not finish on his own; the Lord came to him. That is the promise of the road home.",
     ),
     dict(
@@ -1058,7 +1058,7 @@ earthly avatāra as it does in Vaikuṇṭha itself.</p>""",
         teaching="<em>Sthaviraḥ</em> means the most ancient, and <em>Dhruvaḥ</em> the unmoving, unchanging. Dr. Venkatesh teaches that the Lord is both the eldest of all and always in His eternal youth, and that this delights His devotees forever. He also says that reciting the name brings steadiness of mind and spiritual strength in old age.",
         living="Age takes much from us, but not our relationship with Him. That is the one thing that does not grow old.",
         reflection="Think of someone older than you today and treat them with the kind of care you would want when you are old.",
-        mantra="Om Sthavirāya Namaḥa, or Om Sthavirāya Dhruvāya Namaḥa",
+        mantra="Om Sthavirāya Namaḥ, or Om Sthavirāya Dhruvāya Namaḥ",
         connection="The journey home ends with Him as He is: the Ancient One, ever young, and unchanging. There is nothing left to lose and nothing that ever fades.",
     ),
 ]
@@ -1153,6 +1153,16 @@ for n in DIVINE_NAMES:
         f'<a href="../{r["slug"]}/index.html">{r["iast"]}</a>' for r in related
     ) or '<span>More names coming soon</span>'
 
+    card_file = f"assets/cards/{code}.jpg"
+    if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), card_file)):
+        card_html = f'''<div class="panel card-panel">
+    <p class="section-title">Your Take-Home Card</p>
+    <a href="../../assets/cards/{code}.jpg" target="_blank" rel="noopener"><img class="card-img" src="../../{card_file}" alt="N&#257;r&#257;ya&#7751;a Anugraha Patram card {code}: {n['iast']}" loading="lazy" width="1600" height="1142"/></a>
+    <p class="card-note">The printed card given at the Golu. <a href="../../assets/cards/{code}.jpg" download>Download the full-size card to print</a></p>
+  </div>'''
+    else:
+        card_html = ""
+
     body = f"""
 <article>
   <div class="name-header">
@@ -1190,6 +1200,8 @@ for n in DIVINE_NAMES:
     <p class="section-title">Chant</p>
     <p class="mantra-text">{n['mantra']}</p>
   </div>
+
+  {card_html}
 
   <div class="panel">
     <p class="section-title">Connection to the Journey Home</p>
@@ -1272,6 +1284,9 @@ home_body = """
   <a class="cta-button secondary" href="divine-names/index.html">Discover the 54 Divine Names</a>
   <a class="cta-button secondary" href="audio-guides.html">Listen to the Audio Guide</a>
 </div>
+<div class="cta-row">
+  <a class="cta-button secondary" href="gallery/index.html">Watch the Film &amp; Gallery</a>
+</div>
 
 <div class="panel">
   <p class="section-title">Guiding Principle</p>
@@ -1320,10 +1335,7 @@ golu_story_body = """
 destination and the Lord's loving reception of the soul.</p>
 
 <div class="cta-row">
-  <a class="cta-button primary" href="virtual-tour.html">Take the Virtual Tour &rarr;</a>
-</div>
-<div class="cta-row">
-  <a class="cta-button secondary" href="journey-home/index.html">Follow the Journey Home &rarr;</a>
+  <a class="cta-button primary" href="journey-home/index.html">Follow the Journey Home &rarr;</a>
 </div>
 """
 golu_story_html = page("The Golu Story \u2014 The Journey Home", "golu-story", golu_story_body, depth=0)
@@ -1337,6 +1349,8 @@ with open(os.path.join(ROOT, "golu-story.html"), "w", encoding="utf-8") as f:
 exec(open(os.path.join(ROOT, "journey_section.py"), encoding="utf-8").read())
 
 exec(open(os.path.join(ROOT, "malai_section.py"), encoding="utf-8").read())
+
+exec(open(os.path.join(ROOT, "film_gallery_section.py"), encoding="utf-8").read())
 
 # ------------------------------------------------------------------
 # Audio Guides
@@ -1353,7 +1367,11 @@ audio_body = """
         <li>Simple explanation</li>
         <li>No prior Sri Vaishnava knowledge needed</li>
       </ul>
-      <p style="margin-top:12px;"><em>Audio player coming soon.</em></p>
+
+      <p class="source-note" style="margin:14px 0 4px;"><strong>English</strong></p>
+      <audio controls preload="none" style="width:100%" src="assets/audio/Golu-2026-short-audio-English.mp3"></audio>
+      <p class="source-note" style="margin:14px 0 4px;"><strong>Tamil / தமிழ்</strong></p>
+      <audio controls preload="none" style="width:100%" src="assets/audio/Golu-2026-short-audio-Tamil.mp3"></audio>
     </div>
     <div class="audio-choice">
       <span class="audio-badge">Deeper Journey</span>
@@ -1365,7 +1383,11 @@ audio_body = """
         <li>Archir\u0101di M\u0101rgam</li>
         <li>Paramapadam and kainkaryam</li>
       </ul>
-      <p style="margin-top:12px;"><em>Audio player coming soon.</em></p>
+
+      <p class="source-note" style="margin:14px 0 4px;"><strong>English</strong></p>
+      <audio controls preload="none" style="width:100%" src="assets/audio/Golu-2026-detail-audio-English.mp3"></audio>
+      <p class="source-note" style="margin:14px 0 4px;"><strong>Tamil / தமிழ்</strong></p>
+      <p><em>Coming soon.</em></p>
     </div>
   </div>
 </div>
@@ -1373,84 +1395,6 @@ audio_body = """
 audio_html = page("Audio Guides \u2014 The Journey Home", "audio", audio_body, depth=0)
 with open(os.path.join(ROOT, "audio-guides.html"), "w", encoding="utf-8") as f:
     f.write(audio_html)
-
-# ------------------------------------------------------------------
-# Virtual Tour (A-Frame 360 walkaround, VR-headset capable)
-# ------------------------------------------------------------------
-
-TOUR_ROOMS = [
-    dict(id="dining-room", label="Dining Room", sublabel="Grace and Surrender",
-         img="assets/panoramas/dining-room.jpg"),
-    dict(id="pooja-room", label="Pooja Room", sublabel="The Journey of the J\u012bv\u0101tma",
-         img="assets/panoramas/pooja-room.jpg"),
-]
-
-tour_body = f"""
-<div class="panel">
-  <p class="section-title" style="text-align:center;">Step Inside the Golu</p>
-  <p style="text-align:center;">A 360&deg; virtual walkaround of the exhibition &mdash; drag to look
-  around on desktop, or tilt your phone to look around like you're standing in the room.</p>
-</div>
-
-<div class="tour-room-switch" id="room-switch">
-  {"".join(f'<button class="tour-room-btn{" active" if i==0 else ""}" data-room="{r["id"]}">{r["label"]}</button>' for i, r in enumerate(TOUR_ROOMS))}
-</div>
-
-<div class="tour-wrap">
-  <div class="tour-scene-frame" id="panorama"></div>
-  <p class="tour-instructions">{TOUR_ROOMS[0]['label']} &mdash; {TOUR_ROOMS[0]['sublabel']}</p>
-</div>
-
-<p class="tour-vr-note">This is a placeholder 360&deg; scene. Once real photos of the finished Golu are
-taken (using a phone's Panorama mode), they'll drop in here without changing anything else on this
-page.</p>
-
-<div class="cta-row">
-  <a class="cta-button secondary" href="golu-story.html">&larr; Back to the Golu Story</a>
-</div>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
-<script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
-<script>
-(function() {{
-  var rooms = {{
-    {", ".join(f'"{r["id"]}": {{label: "{r["label"]}", sublabel: "{r["sublabel"]}", img: "{r["img"]}"}}' for r in TOUR_ROOMS)}
-  }};
-  var buttons = document.querySelectorAll('.tour-room-btn');
-  var instructions = document.querySelector('.tour-instructions');
-  var viewer = null;
-
-  function loadRoom(roomId) {{
-    var r = rooms[roomId];
-    if (viewer) {{ viewer.destroy(); }}
-    viewer = pannellum.viewer('panorama', {{
-      type: 'equirectangular',
-      panorama: r.img,
-      autoLoad: true,
-      compass: false,
-      orientationOnByDefault: true,
-      showZoomCtrl: true,
-      showFullscreenCtrl: true
-    }});
-    instructions.textContent = r.label + ' \u2014 ' + r.sublabel;
-  }}
-
-  buttons.forEach(function(btn) {{
-    btn.addEventListener('click', function() {{
-      buttons.forEach(function(b) {{ b.classList.remove('active'); }});
-      btn.classList.add('active');
-      loadRoom(btn.getAttribute('data-room'));
-    }});
-  }});
-
-  loadRoom('{TOUR_ROOMS[0]['id']}');
-}})();
-</script>
-"""
-tour_html = page("Virtual Tour \u2014 The Journey Home", "tour", tour_body, depth=0,
-                  description="Step inside the Navaratri Golu 2026 exhibition with a 360-degree virtual walkaround.")
-with open(os.path.join(ROOT, "virtual-tour.html"), "w", encoding="utf-8") as f:
-    f.write(tour_html)
 
 # ------------------------------------------------------------------
 # About & Acknowledgements
@@ -1482,9 +1426,8 @@ about_body = """
   <p class="section-title">The Family</p>
   <p><strong>Hema</strong> &mdash; Creative Direction, Project Management, Content Editing<br>
   <strong>Venkatesh</strong> &mdash; Display, Construction, Lighting, Technology<br>
-  <strong>Sriram</strong> &mdash; Research, Pronunciation, Technology<br>
-  <strong>Sana</strong> &mdash; Artwork, Creative Design, a Child's Perspective<br>
-  <strong>Thatha</strong> &mdash; Traditional Guidance, Stories, Review, Blessings</p>
+  <strong>Sriram</strong> &mdash; Golu Setup<br>
+  <strong>Sana</strong> &mdash; Golu Setup</p>
 </div>
 
 <div class="panel">
