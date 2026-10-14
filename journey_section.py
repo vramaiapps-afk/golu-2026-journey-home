@@ -64,6 +64,7 @@ _overview = f"""
 <div class="panel">
   <p class="section-title">Sūḷ Visumbu &mdash; Thiruvāymoṛi 10.9</p>
   <p>The digital companion to the Golu's Sriman Narayana Journey Home display &mdash; the soul's path along the Archirādhi Mārga to Paramapadam, as shown by Sammāḻārvār in eleven pasurams. Choose a pasuram below.</p>
+  <p><a class="cta-button primary" href="../gallery/index.html">Watch the film &rarr;</a></p>
 </div>
 <div class="panel">
   <p class="section-title">The decad in one frame</p>
@@ -74,7 +75,7 @@ _overview = f"""
   <p class="section-title">The reasons at a glance</p>
   <table class="reasons-table"><thead><tr><th>#</th><th>Word in the verse</th><th>Reason the Lord leads the soul</th></tr></thead><tbody>{_table}</tbody></table>
 </div>
-<p class="source-note">Source: Dr. Venkatesh Swamin's discourses (Kavasam Connect). Verses are from his recitation; please verify against a printed Divya Prabandham.</p>
+<p class="source-note">Source: Dr. Venkatesh Swamin's discourses (Kavasam Connect). Verse text follows the prapatti.com edition (Sunder Kidāmbi); explanations are from the discourses.</p>
 """
 with open(os.path.join(JOURNEY_DIR, "index.html"), "w", encoding="utf-8") as f:
     f.write(page("Journey Home — The Journey Home", "journey", _overview, depth=1))
