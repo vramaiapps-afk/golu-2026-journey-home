@@ -1,9 +1,42 @@
 {
   "previous": [
-    {"year": "2025", "title": "Hi-Tech USA Navaratri Golu 2025 | Kanchi Varadaraja Theme with AR Magic", "youtube": "dVCPw5TXztM"},
-    {"year": "2024", "title": "2024 Golu USA Srirangam", "youtube": "lHZBVdEQ4D4"},
-    {"year": "2023", "title": "2023 Navaratri Golu USA Full Video", "youtube": "um5OZcp9jpI"}
+    {
+      "year": "2025",
+      "title": "Hi-Tech USA Navaratri Golu 2025 | Kanchi Varadaraja Theme with AR Magic",
+      "youtube": "dVCPw5TXztM"
+    },
+    {
+      "year": "2024",
+      "title": "2024 Golu USA Srirangam",
+      "youtube": "lHZBVdEQ4D4"
+    },
+    {
+      "year": "2023",
+      "title": "2023 Navaratri Golu USA Full Video",
+      "youtube": "um5OZcp9jpI"
+    }
   ],
-  "photos": [],
+  "photos": [
+    {
+      "file": "golu-full-view.jpg",
+      "caption": "Navaratri Golu 2026 – full view of all the steps"
+    },
+    {
+      "file": "golu-straight-2.jpg",
+      "caption": "Our Golu 2026, front view"
+    },
+    {
+      "file": "golu-straight-3.jpg",
+      "caption": "Our Golu 2026, front view (wider)"
+    },
+    {
+      "file": "visitors-1.jpg",
+      "caption": "Family and friends who joined us at the Golu"
+    },
+    {
+      "file": "visitors-2.jpg",
+      "caption": "Another happy moment with our visitors"
+    }
+  ],
   "videos": []
 }
