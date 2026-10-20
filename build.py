@@ -43,6 +43,7 @@ NAV_ITEMS = [
     ("golu-story", "The Golu Story", "/golu-story.html"),
     ("journey", "Journey Home", "/journey-home/index.html"),
     ("gallery", "Film & Gallery", "/gallery/index.html"),
+    ("dolls", "Meet the Perumals", "/dolls/index.html"),
     ("malai", "Malai Nadu Divya Desam", "/malai-nadu/index.html"),
     ("names", "Divine Name Collection", "/divine-names/index.html"),
     ("audio", "Audio Guides", "/audio-guides.html"),
@@ -1351,6 +1352,7 @@ exec(open(os.path.join(ROOT, "journey_section.py"), encoding="utf-8").read())
 exec(open(os.path.join(ROOT, "malai_section.py"), encoding="utf-8").read())
 
 exec(open(os.path.join(ROOT, "film_gallery_section.py"), encoding="utf-8").read())
+exec(open(os.path.join(ROOT, "dolls_section.py"), encoding="utf-8").read())
 
 # ------------------------------------------------------------------
 # Audio Guides
